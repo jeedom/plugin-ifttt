@@ -86,10 +86,11 @@ foreach (object::all() as $object) {
 </form>
 
 <legend>{{IFTTT}}</legend>
+<a class="btn btn-success btn-sm cmdAction" data-action="add"><i class="fa fa-plus-circle"></i> {{Ajouter une commande}}</a><br/><br/>
 <table id="table_cmd" class="table table-bordered table-condensed">
     <thead>
         <tr>
-            <th>{{Nom}}</th><th>{{Type}}</th><th>{{Action}}</th>
+            <th>{{Nom}}</th><th>{{Sous-type}}</th><th>{{Evènement}}</th><th>{{Valeur}}</th><th>{{Action}}</th>
         </tr>
     </thead>
     <tbody>

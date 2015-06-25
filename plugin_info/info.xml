@@ -3,7 +3,7 @@
     <id>ifttt</id>
     <name>IFTTT</name>
     <description>Plugin IFTTT pour IFTTT maker</description>
-    <icon>fa fa-keyboard-o</icon>
+    <icon>fa fa-rocket</icon>
     <licence>AGPL</licence>
     <author>Loïc Gevrey</author>
     <installation>Aucune</installation>

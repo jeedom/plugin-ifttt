@@ -15,12 +15,17 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-
+ $("#table_cmd").delegate(".listCmdInfo", 'click', function () {
+    var el = $(this).closest('.cmd').find('.cmdAttr[data-l2key=' + $(this).attr('data-input') + ']');
+    jeedom.cmd.getSelectModal({cmd: {type: 'info'}}, function (result) {
+        el.atCaret('insert', result.human);
+    });
+});
 
 /*
  * Fonction pour l'ajout de commande, appellé automatiquement par plugin.template
  */
-function addCmdToTable(_cmd) {
+ function addCmdToTable(_cmd) {
     if (!isset(_cmd)) {
         var _cmd = {configuration: {}};
     }
@@ -29,14 +34,26 @@ function addCmdToTable(_cmd) {
     }
     var tr = '<tr class="cmd" data-cmd_id="' + init(_cmd.id) + '">';
     tr += '<td>';
-    tr += '<span class="cmdAttr" data-l1key="id"></span>';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Nom}}">';
+    tr += '<input class="cmdAttr" data-l1key="id" style="display:none;" />';
+    tr += '<input class="cmdAttr" data-l1key="type" value="action" style="display:none;" />';
+    tr += '<input class="cmdAttr" data-l1key="subtype" value="other" style="display:none;" />';
     tr += '</td>';
     tr += '<td>';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Nom}}"></td>';
-    tr += '<td>';
-    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="type" value="info" disabled style="margin-bottom : 5px;" />';
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
+    tr += '<td>';
+    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="event" placeholder="{{Evènement}}" />';
+    tr += '</td>';
+    tr += '<td>';
+    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value1" placeholder="{{Valeur 1}}" style="display : inline-block;width:80%" />';
+    tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value1" ><i class="fa fa-list-alt"></i></a><br/>';
+    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value2" placeholder="{{Valeur 2}}" style="display : inline-block;width:80%" />';
+    tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value2" ><i class="fa fa-list-alt"></i></a><br/>';
+    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value3" placeholder="{{Valeur 3}}" style="display : inline-block;width:80%" />';
+    tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value3" ><i class="fa fa-list-alt"></i></a>';
+    tr += '</td>';
+    tr += '<td>';
     if (is_numeric(_cmd.id)) {
         tr += '<a class="btn btn-default btn-xs cmdAction expertModeVisible" data-action="configure"><i class="fa fa-cogs"></i></a> ';
         tr += '<a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Tester}}</a>';

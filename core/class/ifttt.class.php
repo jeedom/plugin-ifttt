@@ -104,7 +104,34 @@ class iftttCmd extends cmd {
 	 */
 
 	public function execute($_options = array()) {
+		$replace = array();
+		switch ($this->getSubType()) {
+			case 'slider':
+				$replace['#slider#'] = $_options['slider'];
+				break;
+			case 'color':
+				$replace['#color#'] = $_options['color'];
+				break;
+			case 'message':
+				$replace['#title#'] = $_options['title'];
+				$replace['#message#'] = $_options['message'];
+				break;
+		}
 
+		$eqLogic = $this->getEqLogic();
+		$url = 'https://maker.ifttt.com/trigger/' . $this->getConfiguration('event', 'jeedom') . '/with/key/' . $eqLogic->getConfiguration('key') . '?';
+		if ($this->getConfiguration('value1') != '') {
+			$url .= 'value1=' . urlencode(jeedom::evaluateExpression(str_replace(array_keys($replace), $replace, $this->getConfiguration('value1')))) . '&';
+		}
+		if ($this->getConfiguration('value2') != '') {
+			$url .= 'value2=' . urlencode(jeedom::evaluateExpression(str_replace(array_keys($replace), $replace, $this->getConfiguration('value2')))) . '&';
+		}
+		if ($this->getConfiguration('value3') != '') {
+			$url .= 'value3=' . urlencode(jeedom::evaluateExpression(str_replace(array_keys($replace), $replace, $this->getConfiguration('value3')))) . '&';
+		}
+		$url = trim($url, '&');
+		$request_http = new com_http($url);
+		$request_http->exec(5, 3);
 	}
 
 	/*     * **********************Getteur Setteur*************************** */
