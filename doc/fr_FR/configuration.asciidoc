@@ -35,7 +35,7 @@ En dessous vous retrouvez la configuration des commandes :
 * *Nom* : nom de la commande
 * *Sous-type* : sous type de l'équipement
 * *Evènement* : nom de l'èvenement configuré dans IFTTT
-* *Valeur* : valeur a envoyer à IFTTT, 3 distingues possible, en fonction du sous type vous pouvez utiliser les tags : #color#, #slider#, #message# et #title#
+* *Valeur* : valeur a envoyer à IFTTT, 3 distingues possible, en fonction du sous type vous pouvez utiliser les tags : \#color#, \#slider#, \#message# et \#title#
 * configuration avancée (petites roues crantées) : permet d'afficher la configuration avancée de la commande (méthode d'historisation, widget...)
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
@@ -136,4 +136,4 @@ Ici rien de particulier, il faut bien remettre le nom de l'evenement IFTTT dans 
 
 [icon="../images/plugin/tip.png"]
 [TIP]
-Coté Jeedom vous pouvez si vous faite une commande de sous-type message par exemple mettre le tag #message# dans un ou plusieurs champs "Valeur", ainsi dans votre scénario la valeur du message sera tranmis à IFTTT, la meme chose est possible avec #title#, #color#, #slider#
+Coté Jeedom vous pouvez si vous faite une commande de sous-type message par exemple mettre le tag \#message# dans un ou plusieurs champs "Valeur", ainsi dans votre scénario la valeur du message sera tranmis à IFTTT, la meme chose est possible avec \#title#, \#color#, \#slider#
