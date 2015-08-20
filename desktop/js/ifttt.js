@@ -34,24 +34,27 @@
     }
     var tr = '<tr class="cmd" data-cmd_id="' + init(_cmd.id) + '">';
     tr += '<td>';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Nom}}">';
-    tr += '<input class="cmdAttr" data-l1key="id" style="display:none;" />';
-    tr += '<input class="cmdAttr" data-l1key="type" value="action" style="display:none;" />';
-    tr += '<input class="cmdAttr" data-l1key="subtype" value="other" style="display:none;" />';
+    tr += '<span class="cmdAttr" data-l1key="id"></span>';
     tr += '</td>';
     tr += '<td>';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;" placeholder="{{Nom}}">';
+    tr += '</td>';
+    tr += '<td>';
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
     tr += '<td>';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="event" placeholder="{{Evènement}}" />';
     tr += '</td>';
     tr += '<td>';
+    tr += '<div class="actionMode">';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value1" placeholder="{{Valeur 1}}" style="display : inline-block;width:80%" />';
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value1" ><i class="fa fa-list-alt"></i></a><br/>';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value2" placeholder="{{Valeur 2}}" style="display : inline-block;width:80%" />';
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value2" ><i class="fa fa-list-alt"></i></a><br/>';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value3" placeholder="{{Valeur 3}}" style="display : inline-block;width:80%" />';
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value3" ><i class="fa fa-list-alt"></i></a>';
+    tr += '</div>';
     tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
@@ -62,8 +65,17 @@
     tr += '</tr>';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
-    if (isset(_cmd.type)) {
-        $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
-    }
     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
+    initTooltips();
 }
+
+$('#table_cmd tbody').on('change','.cmd .cmdAttr[data-l1key=type]',function(){
+    var cmd = $(this).closest('.cmd');
+    if($(this).value() == 'info'){
+        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key=event]').hide();
+        cmd.find('.actionMode').hide();
+    }else{
+        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key=event]').show();
+        cmd.find('.actionMode').show();
+    }
+});

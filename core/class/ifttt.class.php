@@ -24,67 +24,15 @@ class ifttt extends eqLogic {
 
 	/*     * ***********************Methode static*************************** */
 
-	/*
-	 * Fonction exécutée automatiquement toutes les minutes par Jeedom
-	public static function cron() {
-
+	public static function event() {
+		$cmd = iftttCmd::byId(init('id'));
+		if (!is_object($cmd)) {
+			throw new Exception('Commande ID ifttt inconnu : ' . init('id'));
+		}
+		$cmd->event(init('value'));
 	}
-	 */
-
-	/*
-	 * Fonction exécutée automatiquement toutes les heures par Jeedom
-	public static function cronHourly() {
-
-	}
-	 */
-
-	/*
-	 * Fonction exécutée automatiquement tous les jours par Jeedom
-	public static function cronDayly() {
-
-	}
-	 */
 
 	/*     * *********************Méthodes d'instance************************* */
-
-	public function preInsert() {
-
-	}
-
-	public function postInsert() {
-
-	}
-
-	public function preSave() {
-
-	}
-
-	public function postSave() {
-
-	}
-
-	public function preUpdate() {
-
-	}
-
-	public function postUpdate() {
-
-	}
-
-	public function preRemove() {
-
-	}
-
-	public function postRemove() {
-
-	}
-
-	/*
-	 * Non obligatoire mais permet de modifier l'affichage du widget si vous en avez besoin
-	public function toHtml($_version = 'dashboard') {
-
-	}
-	 */
 
 	/*     * **********************Getteur Setteur*************************** */
 }
@@ -95,13 +43,11 @@ class iftttCmd extends cmd {
 	/*     * ***********************Methode static*************************** */
 
 	/*     * *********************Methode d'instance************************* */
-
-	/*
-	 * Non obligatoire permet de demander de ne pas supprimer les commandes même si elles ne sont pas dans la nouvelle configuration de l'équipement envoyé en JS
-	public function dontRemoveCmd() {
-	return true;
+	public function preSave() {
+		if ($this->getType() == 'info') {
+			$this->setEventOnly(1);
+		}
 	}
-	 */
 
 	public function execute($_options = array()) {
 		$replace = array();
