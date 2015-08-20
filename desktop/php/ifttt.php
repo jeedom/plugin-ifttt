@@ -33,8 +33,12 @@ foreach ($eqLogics as $eqLogic) {
         <span style="font-size : 1.1em;position:relative; top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#94ca02"><center>Ajouter</center></span>
     </div>
     <?php
+$opacity = '';
+if ($eqLogic->getIsEnable() != 1) {
+	$opacity = 'opacity:0.3;';
+}
 foreach ($eqLogics as $eqLogic) {
-	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >';
+	echo '<div class="eqLogicDisplayCard cursor" data-eqLogic_id="' . $eqLogic->getId() . '" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;' . $opacity . '" >';
 	echo "<center>";
 	echo '<img src="plugins/ifttt/doc/images/ifttt_icon.png" height="105" width="95" />';
 	echo "</center>";
