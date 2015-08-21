@@ -1,10 +1,10 @@
-=== Configuration du plugin
+== Configuration du plugin
 
 Après téléchargement du plugin il vous faut l'activer, celui-ci ne necessite aucune autre configuration.
 
 image::../images/ifttt7.PNG[]
 
-=== Configuration des équipements
+== Configuration des équipements
 
 La configuration des équipements IFTTT est accessible à partir du menu plugin : 
 
@@ -14,14 +14,12 @@ Voilà à quoi ressemble la page du plugin IFTTT (ici avec déjà 1 équipements
 
 image::../images/ifttt9.PNG[]
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Comme à beaucoup d'endroit sur Jeedom, mettre la souris tout à gauche permet de faire apparaître un menu d'accès rapide (vous pouvez à partir de votre profils le laisser toujours visible)
 
 Une fois que vous cliquez sur l'un d'eux, vous obtenez : 
 
 image::../images/ifttt10.PNG[]
-
 
 Vous retrouvez ici toute la configuration de votre équipement : 
 
@@ -40,7 +38,7 @@ En dessous vous retrouvez la configuration des commandes :
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
 
-=== Création d'un compte IFTTT et du "channel"
+== Création d'un compte IFTTT et du "channel"
 
 Creez un compte sur IFTTT si ce n'est pas deja fait, en allant sur link::https://ifttt.com[IFTTT] : 
 
@@ -70,7 +68,7 @@ Cette clef est à copier dans le champs "Clef" de votre équipement sous Jeedom
 
 image::../images/ifttt11.PNG[]
 
-=== Création de votre premier "Recipe"
+== Création de votre premier "Recipe"
 
 Pour cela rien de plus simple, dans IFTTT cliquez sur "My recipes" : 
 
@@ -134,6 +132,71 @@ image::../images/ifttt24.PNG[]
 
 Ici rien de particulier, il faut bien remettre le nom de l'evenement IFTTT dans Jeedom et ensuite mettre les valeurs a passer à IFTTT, ici les conditions méteo dans l'ingrédient value1
 
-[icon="../images/plugin/tip.png"]
 [TIP]
 Coté Jeedom vous pouvez si vous faite une commande de sous-type message par exemple mettre le tag \#message# dans un ou plusieurs champs "Valeur", ainsi dans votre scénario la valeur du message sera tranmis à IFTTT, la meme chose est possible avec \#title#, \#color#, \#slider#
+
+== Envoi d'information de IFTTT vers Jeedom
+
+Il est aussi possible de faire dans l'autre, envoi d'information de IFTTT vers Jeedom. Voila comment faire pour par exemple envoyer une information lorsque le téléphone rentre dans une zone donnée. Premiere chose à faire creer une nouvelle recette (recipe) : 
+
+image::../images/ifttt25.PNG[]
+
+Cliquez ensuite sur le "this" : 
+
+image::../images/ifttt26.PNG[]
+
+Sélectionnez "Android Location" : 
+
+image::../images/ifttt27.PNG[]
+
+Choisissez votre declencheur (ici je vais prendre quand on rentre dans une zone) : 
+
+image::../images/ifttt28.PNG[]
+
+Marquez votre zone puis faites "Create Trigger" : 
+
+image::../images/ifttt29.PNG[]
+
+Cliquez sur "that" :
+
+image::../images/ifttt30.PNG[]
+
+Cherchez "Maker" et cliquez dessus : 
+
+image::../images/ifttt31.PNG[]
+
+Cliquez sur "Make a web request" : 
+
+image::../images/ifttt32.PNG[]
+
+Coté Jeedom sur votre équipement IFTTT creer une commande de type info/autre (ou binaire si vous voulez juste savoir si vous etês dans la zone), comme cela : 
+
+image::../images/ifttt33.PNG[]
+
+L'important ici est de récuperer l'id de la commande (ici 5369). 
+
+On retourne ensuite sur IFTTT et dans notre maker on va lui donner l'url à appeller, c'est ici l'étape la plus compliqué trouver votre url d'accès externe : 
+
+* Vous utilisez le DNS jeedom alors c'est : https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY#&type=ifttt&id=\#IDCMD#&value=\#VALEUR#. Attention si vous avez une /jeedom il faut bien penser à le rajouter avant le /core
+* Vous avez votre propre DNS alors l'url est de la forme http://\#VOTRE_DNS#/core/api/jeeApi.php?apikey=\#APIKEY#&type=ifttt&id=\#IDCMD#&value=\#VALEUR#. Attention si vous avez une /jeedom il faut bien penser à le rajouter avant le /core
+
+Pensez bien à remplacer : 
+
+* \#APIKEY# : par votre clef api (elle se trouve dans Général -> Administration -> Configuration)
+* \#IDCMD# : par l'id de votre commande précedement crée
+* \#VALEUR# : par la valeur que vous voulez donner à votre commande. Attention ici les espaces doivent etre remplacé par des %20 (et il vaut mieux eviter les caracteres spéciaux), ex : Hors%20zone
+
+Voila ce que ca donne : 
+
+image::../images/ifttt34.PNG[]
+
+Pensez bien à mettre methode sur Get, puis cliquez sur "Create Action".
+
+Donnez un titre à votre recette puis cliquez sur "Create Recipe" : 
+
+image::../images/ifttt35.PNG[]
+
+Et voila dès que vous rentrez dans la zone Jeedom sera prevenu.
+
+[IMPORTANT]
+Il faut aussi faire une recette pour la sortie de zone sinon jeedom ne sera pas prévenu lors de votre sortie de la zone
