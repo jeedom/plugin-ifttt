@@ -182,7 +182,7 @@ On retourne ensuite sur IFTTT et dans notre maker on va lui donner l'url à appe
 
 Pensez bien à remplacer : 
 
-* \#APIKEY# : par votre clef api (elle se trouve dans Général -> Administration -> Configuration)
+* \#APIKEY# : par votre clef API JEEDOM (elle se trouve dans Général -> Administration -> Configuration)
 * \#IDCMD# : par l'id de votre commande précedement crée
 * \#VALEUR# : par la valeur que vous voulez donner à votre commande. Attention ici les espaces doivent etre remplacé par des %20 (et il vaut mieux eviter les caracteres spéciaux), ex : Hors%20zone
 
