@@ -43,11 +43,6 @@ class iftttCmd extends cmd {
 	/*     * ***********************Methode static*************************** */
 
 	/*     * *********************Methode d'instance************************* */
-	public function preSave() {
-		if ($this->getType() == 'info') {
-			$this->setEventOnly(1);
-		}
-	}
 
 	public function execute($_options = array()) {
 		$replace = array();
