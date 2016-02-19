@@ -23,9 +23,7 @@ foreach ($eqLogics as $eqLogic) {
  </div>
 
  <div class="col-lg-10 col-md-9 col-sm-8 eqLogicThumbnailDisplay" style="border-left: solid 1px #EEE; padding-left: 25px;">
-  <legend>{{Mes IFTTT}}
-  </legend>
-
+  <legend><i class="fa fa-table"></i> {{Mes IFTTT}}</legend>
   <div class="eqLogicThumbnailContainer">
     <div class="cursor eqLogicAction" data-action="add" style="background-color : #ffffff; height : 200px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
      <center>
@@ -100,7 +98,8 @@ foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
 </fieldset>
 </form>
 
-<legend>{{IFTTT}}</legend>
+<legend><i class="fa fa-list-alt"></i> {{IFTTT}}</legend>
+<div class="alert alert-info">Exemple d’URL à appeler : <?php echo network::getNetworkAccess('external') ?>/core/api/jeeApi.php?api=<?php echo config::byKey('api'); ?>&type=ifttt&id=#ID_CMD#&value=#VALEUR#</div>
 <a class="btn btn-success btn-sm cmdAction" data-action="add"><i class="fa fa-plus-circle"></i> {{Ajouter une commande}}</a><br/><br/>
 <table id="table_cmd" class="table table-bordered table-condensed">
   <thead>
