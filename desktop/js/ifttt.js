@@ -54,19 +54,22 @@
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value1" ><i class="fa fa-list-alt"></i></a>';
     tr += '</span>';
     tr += '</div>';
-      tr += '<div class="input-group">';
+    tr += '<div class="input-group">';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value2" placeholder="{{Valeur 2}}" />';
     tr += '<span class="input-group-btn">';
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value2" ><i class="fa fa-list-alt"></i></a>';
     tr += '</span>';
     tr += '</div>';
-        tr += '<div class="input-group">';
+    tr += '<div class="input-group">';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value3" placeholder="{{Valeur 3}}" />';
     tr += '<span class="input-group-btn">';
     tr += ' <a class="btn btn-default btn-sm listCmdInfo btn-default" data-input="value3" ><i class="fa fa-list-alt"></i></a>';
     tr += '</span>';
     tr += '</div>';
     tr += '</div>';
+    tr += '</td>';
+    tr += '<td>';
+    tr += '<span><input type="checkbox" class="cmdAttr bootstrapSwitch" data-l1key="isVisible" data-size="mini" data-label-text="{{Afficher}}" checked/></span> ';
     tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
