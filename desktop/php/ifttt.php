@@ -71,15 +71,15 @@ foreach (object::all() as $object) {
        </div>
      </div>
      <div class="form-group">
-      <label class="col-sm-3 control-label" >{{Activer}}</label>
+      <label class="col-sm-3 control-label"></label>
       <div class="col-sm-9">
-       <input type="checkbox" class="eqLogicAttr bootstrapSwitch" data-label-text="{{Activer}}" data-l1key="isEnable" checked/>
-       <input type="checkbox" class="eqLogicAttr bootstrapSwitch" data-label-text="{{Visible}}" data-l1key="isVisible" checked/>
-     </div>
-   </div>
-   <div class="form-group">
-   <label class="col-sm-3 control-label">{{Catégorie}}</label>
-    <div class="col-sm-8">
+        <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isEnable" checked/>{{Activer}}</label>
+        <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="isVisible" checked/>{{Visible}}</label>
+      </div>
+    </div>
+    <div class="form-group">
+     <label class="col-sm-3 control-label">{{Catégorie}}</label>
+     <div class="col-sm-8">
       <?php
 foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
 	echo '<label class="checkbox-inline">';
@@ -87,14 +87,14 @@ foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
 	echo '</label>';
 }
 ?>
-    </div>
+   </div>
+ </div>
+ <div class="form-group">
+  <label class="col-sm-3 control-label">{{Clef}}</label>
+  <div class="col-sm-3">
+    <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="key" />
   </div>
-  <div class="form-group">
-    <label class="col-sm-3 control-label">{{Clef}}</label>
-    <div class="col-sm-3">
-      <input type="text" class="eqLogicAttr configuration form-control" data-l1key="configuration" data-l2key="key" />
-    </div>
-  </div>
+</div>
 </fieldset>
 </form>
 
