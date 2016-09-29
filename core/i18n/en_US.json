@@ -1,0 +1,37 @@
+{
+    "plugins/ifttt/plugin_info/info.xml": {
+        "Plugin IFTTT pour IFTTT maker": "Plugin IFTTT for IFTTT maker",
+        "Aucune": "None"
+    },
+    "plugins/ifttt/desktop/php/ifttt.php": {
+        "Ajouter un IFTTT": "Add a IFTTT",
+        "Rechercher": "Search",
+        "Mes IFTTT": "My IFTTT",
+        "Général": "Main",
+        "Nom de l'équipement IFTTT": "IFTTT device name",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Activer": "Enabled",
+        "Visible": "Visible",
+        "Clef": "Key",
+        "IFTTT": "IFTTT",
+        "Ajouter une commande": "Add a command",
+        "Nom": "Name",
+        "Sous-type": "Sub-type",
+        "Evènement": "Event",
+        "Valeur": "Value",
+        "Action": "Action",
+        "Supprimer": "Delete",
+        "Sauvegarder": "Save",
+        "#": "#",
+        "Catégorie": "Category"
+    },
+    "plugins/ifttt/desktop/js/ifttt.js": {
+        "Nom": "Name",
+        "Evènement": "Event",
+        "Valeur 1": "Value 1",
+        "Valeur 2": "Value 2",
+        "Valeur 3": "Value 3",
+        "Tester": "Test"
+    }
+}

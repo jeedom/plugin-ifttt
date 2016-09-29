@@ -1,0 +1,5 @@
+= IFTTT
+
+Ce plugin permet d'envoyer un évènement à IFTTT
+
+include::configuration.asciidoc[]

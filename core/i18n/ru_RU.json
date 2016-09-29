@@ -1,0 +1,37 @@
+{
+    "plugins/ifttt/plugin_info/info.xml": {
+        "Plugin IFTTT pour IFTTT maker": "Plugin IFTTT pour IFTTT maker",
+        "Aucune": "Нет"
+    },
+    "plugins/ifttt/desktop/php/ifttt.php": {
+        "Ajouter un IFTTT": "Ajouter un IFTTT",
+        "Rechercher": "Искать",
+        "Mes IFTTT": "Mes IFTTT",
+        "Général": "Главная",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
+        "Objet parent": "Родительский объект",
+        "Aucun": "Нет",
+        "Activer": "Активировать",
+        "Visible": "Видимый",
+        "Clef": "Clef",
+        "IFTTT": "IFTTT",
+        "Ajouter une commande": "Добавить команду",
+        "Nom": "Имя",
+        "Sous-type": "Под-Тип",
+        "Evènement": "Событие",
+        "Valeur": "Значение",
+        "Action": "Действие",
+        "Supprimer": "Удалить",
+        "Sauvegarder": "Сохранить",
+        "#": "#",
+        "Catégorie": "Категория"
+    },
+    "plugins/ifttt/desktop/js/ifttt.js": {
+        "Nom": "Имя",
+        "Evènement": "Событие",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
+        "Tester": "Тест"
+    }
+}
