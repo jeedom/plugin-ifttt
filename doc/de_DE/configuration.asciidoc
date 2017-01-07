@@ -4,9 +4,9 @@ Après téléchargement du plugin il vous faut l'activer, celui-ci ne nécessite
 
 image::../images/ifttt7.PNG[]
 
-== Configuration des équipements
+== Geräte Konfiguration
 
-La configuration des équipements IFTTT est accessible à partir du menu plugins : 
+Die Konfiguration von IFTTT-Geräten ist in dem Plugin-Menü verfügbar : 
 
 image::../images/ifttt8.PNG[]
 
@@ -21,7 +21,7 @@ Une fois que vous cliquez sur l'un d'eux, vous obtenez :
 
 image::../images/ifttt10.PNG[]
 
-Vous retrouvez ici toute la configuration de votre équipement : 
+Hier finden sie die ganze Konfiguration Ihrer Geräte: 
 
 * *Nom de l'équipement* : nom de votre équipement IFTTT
 * *Activer* : permet de rendre votre équipement actif
