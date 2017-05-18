@@ -1,0 +1,9 @@
+{
+	"id" : "ifttt",
+	"name" : "IFTTT",
+	"description" : "Plugin IFTTT pour IFTTT maker",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.0",
+	"category" : "communication"
+}
