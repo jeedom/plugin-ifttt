@@ -32,8 +32,8 @@ class ifttt extends eqLogic {
 		$cmd->event(init('value'));
 		if ($cmd->getType() == 'info' && $cmd->getSubType() == 'string' && $cmd->getConfiguration('interact::allow')) {
 			$parameters = array();
-			$parameters['plugin'] = 'telegram';
-			$reply = interactQuery::tryToReply(trim(init('value')), $parameters);
+			$parameters['plugin'] = 'ifttt';
+			$reply = interactQuery::tryToReply(trim(utf8_encode(init('value'))), $parameters);
 		}
 	}
 
