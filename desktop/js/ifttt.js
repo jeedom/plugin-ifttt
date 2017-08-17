@@ -67,6 +67,7 @@
     tr += '</td>';
     tr += '<td>';
     tr += '<span><label class="checkbox-inline"><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" checked/>{{Afficher}}</label><span> ';
+    tr += '<span><label class="checkbox-inline"><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="configuration" data-l2key="interact::allow" />{{Autoriser interaction}}</label><span> ';
     tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {
@@ -80,13 +81,20 @@
     jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
 }
 
-$('#table_cmd tbody').on('change','.cmd .cmdAttr[data-l1key=type]',function(){
+$('#table_cmd tbody').on('change','.cmd .cmdAttr[data-l1key=subType]',function(){
     var cmd = $(this).closest('.cmd');
     if($(this).value() == 'info'){
-        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key=event]').hide();
         cmd.find('.actionMode').hide();
     }else{
-        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key=event]').show();
         cmd.find('.actionMode').show();
+    }
+});
+
+$('#table_cmd tbody').on('change','.cmd .cmdAttr[data-l1key=subType]',function(){
+    var cmd = $(this).closest('.cmd');
+    if($(this).value() == 'string'){
+        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key="interact::allow"]').parent().show();
+    }else{
+        cmd.find('.cmdAttr[data-l1key=configuration][data-l2key="interact::allow"]').parent().hide();
     }
 });

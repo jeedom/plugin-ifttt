@@ -30,6 +30,11 @@ class ifttt extends eqLogic {
 			throw new Exception('Commande ID ifttt inconnu : ' . init('id'));
 		}
 		$cmd->event(init('value'));
+		if ($cmd->getType() == 'info' && $cmd->getSubType() == 'string' && $cmd->getConfiguration('interact::allow')) {
+			$parameters = array();
+			$parameters['plugin'] = 'telegram';
+			$reply = interactQuery::tryToReply(trim(init('value')), $parameters);
+		}
 	}
 
 	/*     * *********************Méthodes d'instance************************* */
