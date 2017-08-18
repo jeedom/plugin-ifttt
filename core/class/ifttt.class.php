@@ -76,11 +76,10 @@ class iftttCmd extends cmd {
 			$url .= 'value3=' . urlencode(jeedom::evaluateExpression(str_replace(array_keys($replace), $replace, $this->getConfiguration('value3')))) . '&';
 		}
 		$url = trim($url, '&');
-		$request_http = new com_http($url);
-		$request_http->exec(5, 3);
+		$request_http = (new com_http($url))->exec(5, 3);
 	}
 
 	/*     * **********************Getteur Setteur*************************** */
 }
 
-?>
+
