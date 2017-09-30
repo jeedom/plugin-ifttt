@@ -44,6 +44,9 @@
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
     tr += '<td>';
+    tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="event" placeholder="{{Evènement}}" />';		
+    tr += '</td>';		
+    tr += '<td>';
     tr += '<div class="actionMode">';
     tr += '<div class="input-group">';
     tr += '<input class="cmdAttr form-control type input-sm" data-l1key="configuration" data-l2key="value1" placeholder="{{Valeur 1}}" />';
