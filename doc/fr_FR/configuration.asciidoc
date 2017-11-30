@@ -26,7 +26,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 * *Nom de l'équipement* : nom de votre équipement IFTTT
 * *Activer* : permet de rendre votre équipement actif
 * *Visible* : le rend visible sur le dashboard
-* *Clef* : clef 
+* *Clef* : clef IFTTT que vous trouverez dans la configuration du service Webhooks (qui remplace channel maker)
 
 En dessous vous retrouvez la configuration des commandes : 
 
@@ -38,7 +38,7 @@ En dessous vous retrouvez la configuration des commandes :
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
 
-== Création d'un compte IFTTT et du "channel"
+== Création d'un compte IFTTT
 
 Créez un compte sur IFTTT si ce n'est pas déjà fait, en allant sur link::https://ifttt.com[IFTTT] : 
 
@@ -48,11 +48,11 @@ Renseignez votre adresse mail puis votre nom d'utilisateur et faites créer :
 
 image::../images/ifttt2.PNG[]
 
-Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur channels : 
+Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur search :
 
 image::../images/ifttt3.PNG[]
 
-Puis dans recherche tapez maker et cliquez sur maker :
+Puis dans recherche tapez Webhooks et cliquez sur Webhooks :
 
 image::../images/ifttt4.PNG[]
 
@@ -70,11 +70,11 @@ image::../images/ifttt11.PNG[]
 
 == Création de votre premier "Recipe"
 
-Pour cela rien de plus simple, dans IFTTT cliquez sur "My recipes" : 
+Pour cela rien de plus simple, dans IFTTT cliquez sur "My applets" : 
 
 image::../images/ifttt12.PNG[]
 
-Puis cliquez sur "Create a Recipe" : 
+Puis cliquez sur "New applet" : 
 
 image::../images/ifttt13.PNG[]
 
@@ -82,7 +82,7 @@ Cliquez sur le "this" :
 
 image::../images/ifttt14.PNG[]
 
-Puis cherchez "Maker" et cliquez dessus : 
+Puis cherchez "Webhooks" et cliquez dessus : 
 
 image::../images/ifttt15.PNG[]
 
@@ -98,7 +98,7 @@ Cliquez ensuite sur le that :
 
 image::../images/ifttt18.PNG[]
 
-Ensuite à vous de voir, pour l'exemple je vais faire un envoi de notification sur mon téléphone (il faut au préalable avoir installé l'application IFTTT dessus), je clique donc sur Android Notifications :
+Ensuite à vous de voir, pour l'exemple je vais faire un envoi de notification sur mon téléphone (il faut au préalable avoir installé l'application IFTTT dessus), je clique donc sur Notifications :
 
 image::../images/ifttt19.PNG[]
 
@@ -118,11 +118,11 @@ Voilà ce que cela donne ici (je veux recevoir la notification de la méteo en c
 
 image::../images/ifttt21.PNG[]
 
-Donnez un nom a votre recipe (recette) et validez en cliquant sur "Create Recipe" : 
+Donnez un nom a votre applet (recette) et validez en cliquant sur "Create action" : 
 
 image::../images/ifttt22.PNG[]
 
-Voilà vous avez créer votre "recipe" coté IFTTT : 
+Voilà vous avez créer votre "applets" coté IFTTT : 
 
 image::../images/ifttt23.PNG[]
 
@@ -137,7 +137,7 @@ Coté Jeedom vous pouvez, si vous faites une commande de sous-type message par e
 
 == Envoi d'information de IFTTT vers Jeedom
 
-Il est aussi possible de faire dans l'autre sens, envoi d'information de IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une information lorsque le téléphone pénètre dans une zone donnée. Première chose à faire, créer une nouvelle recette (recipe) : 
+Il est aussi possible de faire dans l'autre sens, envoi d'information de IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une information lorsque le téléphone pénètre dans une zone donnée. Première chose à faire, créer une nouvelle applets : 
 
 image::../images/ifttt25.PNG[]
 
@@ -145,7 +145,7 @@ Cliquez ensuite sur le "this" :
 
 image::../images/ifttt26.PNG[]
 
-Sélectionnez "Android Location" : 
+Sélectionnez "Location" : 
 
 image::../images/ifttt27.PNG[]
 
@@ -161,7 +161,7 @@ Cliquez sur "that" :
 
 image::../images/ifttt30.PNG[]
 
-Cherchez "Maker" et cliquez dessus : 
+Cherchez "Webhooks" et cliquez dessus : 
 
 image::../images/ifttt31.PNG[]
 
@@ -173,7 +173,8 @@ Coté Jeedom, sur votre équipement IFTTT, créer une commande de type info/autr
 
 image::../images/ifttt33.PNG[]
 
-L'important ici est de récupérer l'id de la commande (ici 5369). 
+
+* Très important ici : récupérer l'id de la commande (ici 5369). 
 
 On retourne ensuite sur IFTTT et dans notre maker on va lui donner l'url à appeller. C'est ici l'étape la plus compliquée, trouver votre url d'accès externe : 
 
