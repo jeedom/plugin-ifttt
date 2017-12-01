@@ -52,7 +52,7 @@ Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, 
 
 image::../images/ifttt3.png[]
 
-Puis dans recherche tapez maker et cliquez sur maker :
+Puis dans recherche tapez webhooks et cliquez sur webhooks :
 
 image::../images/ifttt4.png[]
 
@@ -68,21 +68,18 @@ Cette clef est à copier dans le champ "Clef" de votre équipement sous Jeedom
 
 image::../images/ifttt11.PNG[]
 
-== Création de votre premier "Recipe"
+== Création de votre premier "Applet"
 
-Pour cela rien de plus simple, dans IFTTT cliquez sur "My recipes" : 
+Pour cela rien de plus simple, dans IFTTT cliquez sur "My applets" puis sur "New applet"
 
 image::../images/ifttt12.png[]
 
-Puis cliquez sur "Create a Recipe" : 
-
-image::../images/ifttt13.PNG[]
 
 Cliquez sur le "this" : 
 
 image::../images/ifttt14.png[]
 
-Puis cherchez "Maker" et cliquez dessus : 
+Puis cherchez "Webhooks" et cliquez dessus : 
 
 image::../images/ifttt15.png[]
 
@@ -98,7 +95,7 @@ Cliquez ensuite sur le that :
 
 image::../images/ifttt18.png[]
 
-Ensuite à vous de voir, pour l'exemple je vais faire un envoi de notification sur mon téléphone (il faut au préalable avoir installé l'application IFTTT dessus), je clique donc sur Android Notifications :
+Ensuite à vous de voir, pour l'exemple je vais faire un envoi de notification sur mon téléphone (il faut au préalable avoir installé l'application IFTTT dessus), je clique donc sur Notifications :
 
 image::../images/ifttt19.png[]
 
@@ -118,13 +115,7 @@ Voilà ce que cela donne ici (je veux recevoir la notification de la méteo en c
 
 image::../images/ifttt21.png[]
 
-Donnez un nom a votre recipe (recette) et validez en cliquant sur "Create Recipe" : 
-
-image::../images/ifttt22.PNG[]
-
-Voilà vous avez créer votre "recipe" coté IFTTT : 
-
-image::../images/ifttt23.PNG[]
+Donnez un nom a votre applets et validez en cliquant sur "Create action".
 
 Il reste plus qu'a créer la commande coté Jeedom, c'est assez simple : 
 
@@ -137,7 +128,7 @@ Coté Jeedom vous pouvez, si vous faites une commande de sous-type message par e
 
 == Envoi d'information de IFTTT vers Jeedom
 
-Il est aussi possible de faire dans l'autre sens, envoi d'information de IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une information lorsque le téléphone pénètre dans une zone donnée. Première chose à faire, créer une nouvelle recette (recipe) : 
+Il est aussi possible de faire dans l'autre sens, envoi d'information de IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une information lorsque le téléphone pénètre dans une zone donnée. Première chose à faire, créer une nouvelle applet : 
 
 image::../images/ifttt25.png[]
 
@@ -145,7 +136,7 @@ Cliquez ensuite sur le "this" :
 
 image::../images/ifttt26.png[]
 
-Sélectionnez "Android Location" : 
+Sélectionnez "Location" : 
 
 image::../images/ifttt27.png[]
 
@@ -161,7 +152,7 @@ Cliquez sur "that" :
 
 image::../images/ifttt30.png[]
 
-Cherchez "Maker" et cliquez dessus : 
+Cherchez "Webhooks" et cliquez dessus : 
 
 image::../images/ifttt31.png[]
 
@@ -175,7 +166,7 @@ image::../images/ifttt33.PNG[]
 
 L'important ici est de récupérer l'id de la commande (ici 5369). 
 
-On retourne ensuite sur IFTTT et dans notre maker on va lui donner l'url à appeller. C'est ici l'étape la plus compliquée, trouver votre url d'accès externe : 
+On retourne ensuite sur IFTTT et dans notre webhooks on va lui donner l'url à appeller. C'est ici l'étape la plus compliquée, trouver votre url d'accès externe : 
 
 * Vous utilisez le DNS jeedom alors c'est : https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY#&type=ifttt&id=\#IDCMD#&value=\#VALEUR#. Attention si vous avez une adresse en /jeedom il faut bien penser à la rajouter avant le /core
 * Vous avez votre propre DNS alors l'url est de la forme http://\#VOTRE_DNS#/core/api/jeeApi.php?apikey=\#APIKEY#&type=ifttt&id=\#IDCMD#&value=\#VALEUR#. Attention si vous avez une adresse en /jeedom il faut bien penser à la rajouter avant le /core
@@ -192,11 +183,7 @@ image::../images/ifttt34.png[]
 
 Pensez bien à mettre methode sur Get, puis cliquez sur "Create Action".
 
-Donnez un titre à votre recette puis cliquez sur "Create Recipe" : 
-
-image::../images/ifttt35.PNG[]
-
-Et voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
+Donnez un titre à votre applets puis cliquez sur "Create action". Et voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
 
 [IMPORTANT]
 Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne sera pas prévenu lors de votre sortie de la zone
