@@ -42,7 +42,7 @@ En dessous vous retrouvez la configuration des commandes :
 
 Créez un compte sur IFTTT si ce n'est pas déjà fait, en allant sur link::https://ifttt.com[IFTTT] : 
 
-image::../images/ifttt1.PNG[]
+image::../images/ifttt1.png[]
 
 Renseignez votre adresse mail puis votre nom d'utilisateur et faites créer :
 
@@ -50,19 +50,19 @@ image::../images/ifttt2.PNG[]
 
 Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur channels : 
 
-image::../images/ifttt3.PNG[]
+image::../images/ifttt3.png[]
 
 Puis dans recherche tapez maker et cliquez sur maker :
 
-image::../images/ifttt4.PNG[]
+image::../images/ifttt4.png[]
 
 Puis sur connect : 
 
-image::../images/ifttt5.PNG[]
+image::../images/ifttt5.png[]
 
 Et là il vous faut récupérer votre clef : 
 
-image::../images/ifttt6.PNG[]
+image::../images/ifttt6.png[]
 
 Cette clef est à copier dans le champ "Clef" de votre équipement sous Jeedom
 
@@ -72,7 +72,7 @@ image::../images/ifttt11.PNG[]
 
 Pour cela rien de plus simple, dans IFTTT cliquez sur "My recipes" : 
 
-image::../images/ifttt12.PNG[]
+image::../images/ifttt12.png[]
 
 Puis cliquez sur "Create a Recipe" : 
 
@@ -80,31 +80,31 @@ image::../images/ifttt13.PNG[]
 
 Cliquez sur le "this" : 
 
-image::../images/ifttt14.PNG[]
+image::../images/ifttt14.png[]
 
 Puis cherchez "Maker" et cliquez dessus : 
 
-image::../images/ifttt15.PNG[]
+image::../images/ifttt15.png[]
 
 Cliquez sur "Receive a web request"
 
-image::../images/ifttt16.PNG[]
+image::../images/ifttt16.png[]
 
 Donnez un nom à votre "event", attention celui-ci doit correspondre au nom de l'évènement dans la commande Jeedom, il faut donc bien le mémoriser, puis validez : 
 
-image::../images/ifttt17.PNG[]
+image::../images/ifttt17.png[]
 
 Cliquez ensuite sur le that : 
 
-image::../images/ifttt18.PNG[]
+image::../images/ifttt18.png[]
 
 Ensuite à vous de voir, pour l'exemple je vais faire un envoi de notification sur mon téléphone (il faut au préalable avoir installé l'application IFTTT dessus), je clique donc sur Android Notifications :
 
-image::../images/ifttt19.PNG[]
+image::../images/ifttt19.png[]
 
 Validez en cliquant sur "Send a notification" (peut changer en fonction des channels) : 
 
-image::../images/ifttt20.PNG[]
+image::../images/ifttt20.png[]
 
 Ensuite il faut écrire le message de la notification, il existe ici des tags (ingredient) possible : 
 
@@ -116,7 +116,7 @@ Ensuite il faut écrire le message de la notification, il existe ici des tags (i
 
 Voilà ce que cela donne ici (je veux recevoir la notification de la méteo en cours chez moi), valider en cliquant sur "Create Action" : 
 
-image::../images/ifttt21.PNG[]
+image::../images/ifttt21.png[]
 
 Donnez un nom a votre recipe (recette) et validez en cliquant sur "Create Recipe" : 
 
@@ -139,35 +139,35 @@ Coté Jeedom vous pouvez, si vous faites une commande de sous-type message par e
 
 Il est aussi possible de faire dans l'autre sens, envoi d'information de IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une information lorsque le téléphone pénètre dans une zone donnée. Première chose à faire, créer une nouvelle recette (recipe) : 
 
-image::../images/ifttt25.PNG[]
+image::../images/ifttt25.png[]
 
 Cliquez ensuite sur le "this" : 
 
-image::../images/ifttt26.PNG[]
+image::../images/ifttt26.png[]
 
 Sélectionnez "Android Location" : 
 
-image::../images/ifttt27.PNG[]
+image::../images/ifttt27.png[]
 
 Choisissez votre déclencheur (ici je vais prendre quand on rentre dans une zone) : 
 
-image::../images/ifttt28.PNG[]
+image::../images/ifttt28.png[]
 
 Marquez votre zone puis faites "Create Trigger" : 
 
-image::../images/ifttt29.PNG[]
+image::../images/ifttt29.png[]
 
 Cliquez sur "that" :
 
-image::../images/ifttt30.PNG[]
+image::../images/ifttt30.png[]
 
 Cherchez "Maker" et cliquez dessus : 
 
-image::../images/ifttt31.PNG[]
+image::../images/ifttt31.png[]
 
 Cliquez sur "Make a web request" : 
 
-image::../images/ifttt32.PNG[]
+image::../images/ifttt32.png[]
 
 Coté Jeedom, sur votre équipement IFTTT, créer une commande de type info/autre (ou binaire si vous voulez juste savoir si vous êtês dans la zone), comme cela : 
 
@@ -188,7 +188,7 @@ Pensez bien à remplacer :
 
 Voilà ce que cela donne : 
 
-image::../images/ifttt34.PNG[]
+image::../images/ifttt34.png[]
 
 Pensez bien à mettre methode sur Get, puis cliquez sur "Create Action".
 
