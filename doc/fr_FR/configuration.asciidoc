@@ -50,11 +50,11 @@ image::../images/ifttt2.PNG[]
 
 Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur channels : 
 
-image::../images/ifttt3.png[]
+image::../images/ifttt3.PNG[]
 
 Puis dans recherche tapez webhooks et cliquez sur webhooks :
 
-image::../images/ifttt4.png[]
+image::../images/ifttt4.PNG[]
 
 Puis sur connect : 
 
