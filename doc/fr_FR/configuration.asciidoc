@@ -26,7 +26,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 * *Nom de l'équipement* : nom de votre équipement IFTTT
 * *Activer* : permet de rendre votre équipement actif
 * *Visible* : le rend visible sur le dashboard
-* *Clef* : clef 
+* *Clef* : clef IFTTT que vous trouverez dans la configuration du service Webhooks (qui remplace channel maker)
 
 En dessous vous retrouvez la configuration des commandes : 
 
@@ -38,7 +38,7 @@ En dessous vous retrouvez la configuration des commandes :
 * Tester : permet de tester la commande
 * supprimer (signe -) : permet de supprimer la commande
 
-== Création d'un compte IFTTT et du "channel"
+== Création d'un compte IFTTT
 
 Créez un compte sur IFTTT si ce n'est pas déjà fait, en allant sur link::https://ifttt.com[IFTTT] : 
 
@@ -48,7 +48,7 @@ Renseignez votre adresse mail puis votre nom d'utilisateur et faites créer :
 
 image::../images/ifttt2.PNG[]
 
-Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur channels : 
+Un petit guide va vous expliquer les possibilités, une fois celui-ci terminé, cliquez en haut a droite sur search :
 
 image::../images/ifttt3.PNG[]
 
@@ -74,6 +74,9 @@ Pour cela rien de plus simple, dans IFTTT cliquez sur "My applets" puis sur "New
 
 image::../images/ifttt12.png[]
 
+Puis cliquez sur "New applet" : 
+
+image::../images/ifttt13.PNG[]
 
 Cliquez sur le "this" : 
 
@@ -113,9 +116,15 @@ Ensuite il faut écrire le message de la notification, il existe ici des tags (i
 
 Voilà ce que cela donne ici (je veux recevoir la notification de la méteo en cours chez moi), valider en cliquant sur "Create Action" : 
 
-image::../images/ifttt21.png[]
+image::../images/ifttt21.PNG[]
 
-Donnez un nom a votre applets et validez en cliquant sur "Create action".
+Donnez un nom a votre applet (recette) et validez en cliquant sur "Create action" : 
+
+image::../images/ifttt22.PNG[]
+
+Voilà vous avez créer votre "applets" coté IFTTT : 
+
+image::../images/ifttt23.PNG[]
 
 Il reste plus qu'a créer la commande coté Jeedom, c'est assez simple : 
 
@@ -164,7 +173,8 @@ Coté Jeedom, sur votre équipement IFTTT, créer une commande de type info/autr
 
 image::../images/ifttt33.PNG[]
 
-L'important ici est de récupérer l'id de la commande (ici 5369). 
+
+* Très important ici : récupérer l'id de la commande (ici 5369). 
 
 On retourne ensuite sur IFTTT et dans notre webhooks on va lui donner l'url à appeller. C'est ici l'étape la plus compliquée, trouver votre url d'accès externe : 
 
