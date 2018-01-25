@@ -31,7 +31,7 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![ifttt10](../images/ifttt10.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement** : nom de votre équipement IFTTT
 
