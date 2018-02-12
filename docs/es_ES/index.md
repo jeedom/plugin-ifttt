@@ -1,6 +1,6 @@
 Ce plugin permet d’envoyer un évènement à IFTTT
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin il vous faut l’activer, celui-ci ne
