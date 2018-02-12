@@ -35,9 +35,9 @@ Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement** : nom de votre équipement IFTTT
 
--   **Activer** : permet de rendre votre équipement actif
+-   ** ** Activar: para que su equipo activo
 
--   **Visible** : le rend visible sur le dashboard
+-   Visible ** **: hace visible en el tablero de instrumentos
 
 -   **Clef** : clef IFTTT que vous trouverez dans la configuration du
     service Webhooks (qui remplace channel maker)
@@ -58,7 +58,7 @@ En dessous vous retrouvez la configuration des commandes :
     la configuration avancée de la commande (méthode
     d’historisation, widget…​)
 
--   Tester : permet de tester la commande
+-   Prueba: prueba el comando
 
 -   supprimer (signe -) : permet de supprimer la commande
 
