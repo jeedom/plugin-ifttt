@@ -8,7 +8,7 @@ nécessite aucune autre configuration.
 
 ![ifttt7](../images/ifttt7.PNG)
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 La configuration des équipements IFTTT est accessible à partir du menu
