@@ -54,9 +54,9 @@ En dessous vous retrouvez la configuration des commandes :
     fonction du sous-type vous pouvez utiliser les tags : \#color\#,
     \#slider\#, \#message\# et \#title\#
 
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
+-   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
+    Konfiguration des Befehls anzuzeigen (Methode der
+    Archivierung, Widget ...)
 
 -   Test: prüft den Befehl
 
