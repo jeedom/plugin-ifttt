@@ -43,7 +43,7 @@ You can find here the full configuration of your device :
 
 En dessous vous retrouvez la configuration des commandes :
 
--   **Nom** : nom de la commande
+-   **Name**: name of the command
 
 -   **Sous-type** : sous-type de l’équipement
 
