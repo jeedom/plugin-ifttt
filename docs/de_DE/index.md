@@ -21,23 +21,17 @@ Voilà à quoi ressemble la page du plugin IFTTT (ici avec déjà 1
 
 ![ifttt9](../images/ifttt9.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible)
-
 Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![ifttt10](../images/ifttt10.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Sie finden hier die ganze Konfiguration von ihrem Gerät :
 
 -   **Nom de l’équipement** : nom de votre équipement IFTTT
 
--   **Aktivieren**: auf Ihre aktiven Geräte machen
+-   **Aktivieren** : ermöglicht es Ihnen, Ihre Gereäte zu aktivieren
 
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
+-   **Sichtbar** : macht es auf dem Armaturenbrett sichtbar
 
 -   **Clef** : clef IFTTT que vous trouverez dans la configuration du
     service Webhooks (qui remplace channel maker)
@@ -273,3 +267,7 @@ voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
 >
 > Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne
 > sera pas prévenu lors de votre sortie de la zone
+
+> **NOTE**
+>
+> Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https://ifttt.com/maker_webhooks) puis cliquer sur documentation

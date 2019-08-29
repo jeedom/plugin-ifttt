@@ -20,12 +20,6 @@ device) :
 
 ![ifttt9](../images/ifttt9.PNG)
 
-> **Tip**
->
-> As in many places in Jeedom, moving the mouse towards the far left opens a quick options menu (you can have it always visible by setting your profile's options).
->
->
-
 Once you click on one of them, you get:
 
 ![ifttt10](../images/ifttt10.PNG)
@@ -272,3 +266,7 @@ voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
 >
 > Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne
 > sera pas prévenu lors de votre sortie de la zone
+
+> **NOTE**
+>
+> Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https://ifttt.com/maker_webhooks) puis cliquer sur documentation
