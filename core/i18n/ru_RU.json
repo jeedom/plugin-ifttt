@@ -1,37 +1,39 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "Плагин для IFTTT IFTTT производителя",
-        "Aucune": "Нет"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "Добавить IFTTT",
-        "Rechercher": "Искать",
-        "Mes IFTTT": "мой IFTTT",
-        "Général": "Главная",
-        "Nom de l'équipement IFTTT": "Название IFTTT оборудование",
-        "Objet parent": "Родительский объект",
-        "Aucun": "Нет",
-        "Activer": "Активировать",
-        "Visible": "Видимый",
-        "Clef": "ключ",
-        "IFTTT": "IFTTT",
-        "Ajouter une commande": "Добавить команду",
-        "Nom": "Имя",
-        "Sous-type": "Под-Тип",
-        "Evènement": "Событие",
-        "Valeur": "Значение",
-        "Action": "Действие",
-        "Supprimer": "Удалить",
-        "Sauvegarder": "Сохранить",
-        "#": "#",
-        "Catégorie": "Категория"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "desktop\/js\/ifttt.js": {
         "Nom": "Имя",
         "Evènement": "Событие",
         "Valeur 1": "значение 1",
         "Valeur 2": "значение 2",
         "Valeur 3": "Оценка 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
         "Tester": "Тест"
+    },
+    "desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "мой IFTTT",
+        "Rechercher": "Искать",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Сохранить",
+        "Supprimer": "Удалить",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "Название IFTTT оборудование",
+        "Objet parent": "Родительский объект",
+        "Aucun": "Нет",
+        "Activer": "Активировать",
+        "Visible": "Видимый",
+        "Catégorie": "Категория",
+        "Clef": "ключ",
+        "Ajouter une commande": "Добавить команду",
+        "#": "#",
+        "Nom": "Имя",
+        "Sous-type": "Под-Тип",
+        "Evènement": "Событие",
+        "Valeur": "Значение",
+        "Options": "Options",
+        "Action": "Действие"
     }
 }

@@ -1,37 +1,39 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "IFTTT IFTTTメーカーのためのプラグイン",
-        "Aucune": "いいえ"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "IFTTTを追加",
-        "Rechercher": "検索",
-        "Mes IFTTT": "私IFTTT",
-        "Général": "一般的な",
-        "Nom de l'équipement IFTTT": "IFTTT機器に名前を付けます",
-        "Objet parent": "親オブジェクト",
-        "Aucun": "いいえ",
-        "Activer": "アクティブ",
-        "Visible": "目に見えます",
-        "Clef": "キー",
-        "IFTTT": "IFTTT",
-        "Ajouter une commande": "コマンドの追加",
-        "Nom": "名前",
-        "Sous-type": "サブタイプ",
-        "Evènement": "イベント",
-        "Valeur": "値",
-        "Action": "アクション",
-        "Supprimer": "取り除きます",
-        "Sauvegarder": "セーブ",
-        "#": "＃",
-        "Catégorie": "カテゴリ"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "desktop\/js\/ifttt.js": {
         "Nom": "表題",
         "Evènement": "イベント",
         "Valeur 1": "値1",
         "Valeur 2": "値2",
         "Valeur 3": "グレード3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
         "Tester": "テスト"
+    },
+    "desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "私IFTTT",
+        "Rechercher": "検索",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "セーブ",
+        "Supprimer": "取り除きます",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "IFTTT機器に名前を付けます",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "いいえ",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます",
+        "Catégorie": "カテゴリ",
+        "Clef": "キー",
+        "Ajouter une commande": "コマンドの追加",
+        "#": "＃",
+        "Nom": "表題",
+        "Sous-type": "サブタイプ",
+        "Evènement": "イベント",
+        "Valeur": "値",
+        "Options": "Options",
+        "Action": "アクション"
     }
 }

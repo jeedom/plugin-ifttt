@@ -1,37 +1,39 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "Plugin IFTTT para IFTTT maker",
-        "Aucune": "Ninguna"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "Añadir un IFTTT",
-        "Rechercher": "Buscar",
-        "Mes IFTTT": "Mis IFTTT",
-        "Général": "General",
-        "Nom de l'équipement IFTTT": "Nombre del dispositivo IFTTT",
-        "Objet parent": "Objeto padre",
-        "Aucun": "Ninguno",
-        "Activer": "Activar",
-        "Visible": "Visible",
-        "Clef": "Clave",
-        "IFTTT": "IFTTT",
-        "Ajouter une commande": "Añadir un comando",
-        "Nom": "Nombre",
-        "Sous-type": "Subtipo",
-        "Evènement": "Evento",
-        "Valeur": "Valor",
-        "Action": "Acción",
-        "Supprimer": "Borrar",
-        "Sauvegarder": "Guardar",
-        "#": "#",
-        "Catégorie": "Categoría"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "desktop\/js\/ifttt.js": {
         "Nom": "Nombre",
         "Evènement": "Evento",
         "Valeur 1": "Valor 1",
         "Valeur 2": "Valor 2",
         "Valeur 3": "Valor 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
         "Tester": "Probar"
+    },
+    "desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "Mis IFTTT",
+        "Rechercher": "Buscar",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Guardar",
+        "Supprimer": "Borrar",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "Nombre del dispositivo IFTTT",
+        "Objet parent": "Objeto padre",
+        "Aucun": "Ninguno",
+        "Activer": "Activar",
+        "Visible": "Visible",
+        "Catégorie": "Categoría",
+        "Clef": "Clave",
+        "Ajouter une commande": "Añadir un comando",
+        "#": "#",
+        "Nom": "Nombre",
+        "Sous-type": "Subtipo",
+        "Evènement": "Evento",
+        "Valeur": "Valor",
+        "Options": "Options",
+        "Action": "Acción"
     }
 }

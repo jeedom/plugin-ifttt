@@ -1,37 +1,39 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "IFTTT eklenti IFTTT yapıcı için",
-        "Aucune": "Hiçbir"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "IFTTT ekleyin",
-        "Rechercher": "Arayın",
-        "Mes IFTTT": "IFTTT lerim",
-        "Général": "Genel",
-        "Nom de l'équipement IFTTT": "IFTTT cihazın ismi",
-        "Objet parent": "Üst nesne",
-        "Aucun": "Hiçbir",
-        "Activer": "Etkinleştirmek",
-        "Visible": "Görülebilir",
-        "Clef": "Anahtar",
-        "IFTTT": "IFTTT",
-        "Ajouter une commande": "Komuta ekle",
-        "Nom": "İsim",
-        "Sous-type": "alt türü(tipi)",
-        "Evènement": "Olay",
-        "Valeur": "Değer",
-        "Action": "Etki",
-        "Supprimer": "Sil",
-        "Sauvegarder": "Kaydet",
-        "#": "#",
-        "Catégorie": "Kategori"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "desktop\/js\/ifttt.js": {
         "Nom": "İsim",
         "Evènement": "Olay",
         "Valeur 1": "Değer 1",
         "Valeur 2": "Değer 2",
         "Valeur 3": "Değer 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
         "Tester": "Dene"
+    },
+    "desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "IFTTT lerim",
+        "Rechercher": "Arayın",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "IFTTT cihazın ismi",
+        "Objet parent": "Üst nesne",
+        "Aucun": "Hiçbir",
+        "Activer": "Etkinleştirmek",
+        "Visible": "Görülebilir",
+        "Catégorie": "Kategori",
+        "Clef": "Anahtar",
+        "Ajouter une commande": "Komuta ekle",
+        "#": "#",
+        "Nom": "İsim",
+        "Sous-type": "alt türü(tipi)",
+        "Evènement": "Olay",
+        "Valeur": "Değer",
+        "Options": "Options",
+        "Action": "Etki"
     }
 }

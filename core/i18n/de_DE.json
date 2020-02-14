@@ -1,37 +1,39 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "IFTTT Plugin für IFTTT Maker ",
-        "Aucune": "Ohne"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "IFTTT hinzufügen",
-        "Rechercher": "Suchen nach",
-        "Mes IFTTT": "Mein IFTTT",
-        "Général": "Allgemein",
-        "Nom de l'équipement IFTTT": "IFTTT Gerätename",
-        "Objet parent": "Eltern-Objekt",
-        "Aucun": "Ohne",
-        "Activer": "aktivieren",
-        "Visible": "Sichtbar",
-        "Clef": "Schlüssel ",
-        "IFTTT": "IFTTT",
-        "Ajouter une commande": "Kommando hinzufügen",
-        "Nom": "Name",
-        "Sous-type": "Untertyp",
-        "Evènement": "Ereignis",
-        "Valeur": "Wert",
-        "Action": "Aktion",
-        "Supprimer": "Löschen",
-        "Sauvegarder": "Speichern",
-        "#": "#",
-        "Catégorie": "Kategorie"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "desktop\/js\/ifttt.js": {
         "Nom": "Name",
         "Evènement": "Ereignis",
         "Valeur 1": "Wert 1",
         "Valeur 2": "Wert 2",
         "Valeur 3": "Wert 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
         "Tester": "Test"
+    },
+    "desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "Mein IFTTT",
+        "Rechercher": "Suchen nach",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "IFTTT Gerätename",
+        "Objet parent": "Eltern-Objekt",
+        "Aucun": "Ohne",
+        "Activer": "aktivieren",
+        "Visible": "Sichtbar",
+        "Catégorie": "Kategorie",
+        "Clef": "Schlüssel ",
+        "Ajouter une commande": "Kommando hinzufügen",
+        "#": "#",
+        "Nom": "Name",
+        "Sous-type": "Untertyp",
+        "Evènement": "Ereignis",
+        "Valeur": "Wert",
+        "Options": "Options",
+        "Action": "Aktion"
     }
 }
