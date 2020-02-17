@@ -5,21 +5,21 @@
         "Valeur 1": "Değer 1",
         "Valeur 2": "Değer 2",
         "Valeur 3": "Değer 3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
+        "Afficher": "ekran",
+        "Autoriser interaction": "Etkileşime izin ver",
         "Tester": "Dene"
     },
     "desktop\/php\/ifttt.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Gestion": "yönetim",
+        "Ajouter": "eklemek",
         "Mes IFTTT": "IFTTT lerim",
         "Rechercher": "Arayın",
-        "Configuration avancée": "Configuration avancée",
+        "Configuration avancée": "Gelişmiş yapılandırma",
         "Sauvegarder": "Kaydet",
         "Supprimer": "Sil",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Equipement": "ekipman",
+        "Commandes": "komutlar",
         "Nom de l'équipement IFTTT": "IFTTT cihazın ismi",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
@@ -33,7 +33,7 @@
         "Sous-type": "alt türü(tipi)",
         "Evènement": "Olay",
         "Valeur": "Değer",
-        "Options": "Options",
+        "Options": "Seçenekler",
         "Action": "Etki"
     }
 }

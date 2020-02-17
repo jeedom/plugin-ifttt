@@ -5,21 +5,21 @@
         "Valeur 1": "значение 1",
         "Valeur 2": "значение 2",
         "Valeur 3": "Оценка 3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
+        "Afficher": "дисплей",
+        "Autoriser interaction": "Разрешить взаимодействие",
         "Tester": "Тест"
     },
     "desktop\/php\/ifttt.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Gestion": "управление",
+        "Ajouter": "добавлять",
         "Mes IFTTT": "мой IFTTT",
         "Rechercher": "Искать",
-        "Configuration avancée": "Configuration avancée",
+        "Configuration avancée": "Расширенная конфигурация",
         "Sauvegarder": "Сохранить",
         "Supprimer": "Удалить",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Equipement": "оборудование",
+        "Commandes": "команды",
         "Nom de l'équipement IFTTT": "Название IFTTT оборудование",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
@@ -33,7 +33,7 @@
         "Sous-type": "Под-Тип",
         "Evènement": "Событие",
         "Valeur": "Значение",
-        "Options": "Options",
+        "Options": "Параметры",
         "Action": "Действие"
     }
 }

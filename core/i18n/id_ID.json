@@ -5,21 +5,21 @@
         "Valeur 1": "Nilai 1",
         "Valeur 2": "Nilai 2",
         "Valeur 3": "Nilai 3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
+        "Afficher": "pameran",
+        "Autoriser interaction": "Izinkan interaksi",
         "Tester": "Coba"
     },
     "desktop\/php\/ifttt.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Gestion": "pengelolaan",
+        "Ajouter": "menambahkan",
         "Mes IFTTT": "IFTTT saya",
         "Rechercher": "Mencari",
-        "Configuration avancée": "Configuration avancée",
+        "Configuration avancée": "Konfigurasi lanjutan",
         "Sauvegarder": "Menyimpan",
         "Supprimer": "Menghapus",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Equipement": "peralatan",
+        "Commandes": "perintah",
         "Nom de l'équipement IFTTT": "Nama peralatan IFTTT",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
@@ -33,7 +33,7 @@
         "Sous-type": "Subtipe",
         "Evènement": "Peristiwa",
         "Valeur": "Nilai",
-        "Options": "Options",
+        "Options": "Pilihan",
         "Action": "Tindakan"
     }
 }

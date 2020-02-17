@@ -5,21 +5,21 @@
         "Valeur 1": "値1",
         "Valeur 2": "値2",
         "Valeur 3": "グレード3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
+        "Afficher": "ディスプレイ",
+        "Autoriser interaction": "相互作用を許可する",
         "Tester": "テスト"
     },
     "desktop\/php\/ifttt.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Gestion": "管理",
+        "Ajouter": "加えます",
         "Mes IFTTT": "私IFTTT",
         "Rechercher": "検索",
-        "Configuration avancée": "Configuration avancée",
+        "Configuration avancée": "高度な構成",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Equipement": "設備",
+        "Commandes": "コマンド",
         "Nom de l'équipement IFTTT": "IFTTT機器に名前を付けます",
         "Objet parent": "親オブジェクト",
         "Aucun": "いいえ",
@@ -33,7 +33,7 @@
         "Sous-type": "サブタイプ",
         "Evènement": "イベント",
         "Valeur": "値",
-        "Options": "Options",
+        "Options": "オプション",
         "Action": "アクション"
     }
 }

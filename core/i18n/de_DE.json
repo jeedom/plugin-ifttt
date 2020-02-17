@@ -5,21 +5,21 @@
         "Valeur 1": "Wert 1",
         "Valeur 2": "Wert 2",
         "Valeur 3": "Wert 3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
+        "Afficher": "Anzeige",
+        "Autoriser interaction": "Interaktion zulassen",
         "Tester": "Test"
     },
     "desktop\/php\/ifttt.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Gestion": "Management",
+        "Ajouter": "hinzufügen",
         "Mes IFTTT": "Mein IFTTT",
         "Rechercher": "Suchen nach",
-        "Configuration avancée": "Configuration avancée",
+        "Configuration avancée": "Erweiterte Konfiguration",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Equipement": "Ausrüstung",
+        "Commandes": "Befehle",
         "Nom de l'équipement IFTTT": "IFTTT Gerätename",
         "Objet parent": "Eltern-Objekt",
         "Aucun": "Ohne",
@@ -33,7 +33,7 @@
         "Sous-type": "Untertyp",
         "Evènement": "Ereignis",
         "Valeur": "Wert",
-        "Options": "Options",
+        "Options": "Optionen",
         "Action": "Aktion"
     }
 }
