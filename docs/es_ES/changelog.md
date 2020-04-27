@@ -1,12 +1,12 @@
-# 28/08/2019
+# 08/28/2019
 
-- Mise à jour de la documentation
-- Mise à jour de l'interface de configuration
+- Actualización de la documentación
+- 
 
-# 13/08/2019
+# 08/13/2019
 
-- Support de PHP 7.3
+- Soporte para php 7.3
 
-# 15/04/2019
+# 
 
-- Correction d'un bug sur l'icone
+- 

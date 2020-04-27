@@ -1,39 +1,38 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "İsim",
-        "Evènement": "Olay",
-        "Valeur 1": "Değer 1",
-        "Valeur 2": "Değer 2",
-        "Valeur 3": "Değer 3",
-        "Afficher": "ekran",
-        "Autoriser interaction": "Etkileşime izin ver",
-        "Tester": "Dene"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401 - Yetkisiz erişim",
-        "Gestion": "yönetim",
-        "Ajouter": "eklemek",
-        "Mes IFTTT": "IFTTT lerim",
+        "Gestion": "Idare",
+        "Ajouter": "Ekle",
+        "Mes IFTTT": "",
         "Rechercher": "Arayın",
-        "Configuration avancée": "Gelişmiş yapılandırma",
+        "Configuration avancée": "Gelişmiş ayarlar",
         "Sauvegarder": "Kaydet",
         "Supprimer": "Sil",
-        "Equipement": "ekipman",
-        "Commandes": "komutlar",
-        "Nom de l'équipement IFTTT": "IFTTT cihazın ismi",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
-        "Activer": "Etkinleştirmek",
+        "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
         "Catégorie": "Kategori",
         "Clef": "Anahtar",
         "Ajouter une commande": "Komuta ekle",
-        "#": "#",
         "Nom": "İsim",
-        "Sous-type": "alt türü(tipi)",
+        "Sous-type": "Alt türü(tipi)",
         "Evènement": "Olay",
         "Valeur": "Değer",
-        "Options": "Seçenekler",
-        "Action": "Etki"
+        "Options": "Opsiyonlar",
+        "Action": "Eylem"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "İsim",
+        "Evènement": "Olay",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "Göster",
+        "Autoriser interaction": "",
+        "Tester": "Test et"
     }
 }

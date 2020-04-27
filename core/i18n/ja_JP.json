@@ -1,39 +1,38 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "表題",
-        "Evènement": "イベント",
-        "Valeur 1": "値1",
-        "Valeur 2": "値2",
-        "Valeur 3": "グレード3",
-        "Afficher": "ディスプレイ",
-        "Autoriser interaction": "相互作用を許可する",
-        "Tester": "テスト"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401-不正アクセス",
         "Gestion": "管理",
         "Ajouter": "加えます",
-        "Mes IFTTT": "私IFTTT",
+        "Mes IFTTT": "",
         "Rechercher": "検索",
         "Configuration avancée": "高度な構成",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
         "Equipement": "設備",
         "Commandes": "コマンド",
-        "Nom de l'équipement IFTTT": "IFTTT機器に名前を付けます",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "親オブジェクト",
-        "Aucun": "いいえ",
+        "Aucun": "何でもありません",
         "Activer": "アクティブ",
         "Visible": "目に見えます",
         "Catégorie": "カテゴリ",
         "Clef": "キー",
         "Ajouter une commande": "コマンドの追加",
-        "#": "＃",
         "Nom": "表題",
         "Sous-type": "サブタイプ",
         "Evènement": "イベント",
         "Valeur": "値",
         "Options": "オプション",
         "Action": "アクション"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "表題",
+        "Evènement": "イベント",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "ディスプレイ",
+        "Autoriser interaction": "",
+        "Tester": "テスト"
     }
 }

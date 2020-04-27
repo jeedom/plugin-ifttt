@@ -1,26 +1,16 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "Nama",
-        "Evènement": "Peristiwa",
-        "Valeur 1": "Nilai 1",
-        "Valeur 2": "Nilai 2",
-        "Valeur 3": "Nilai 3",
-        "Afficher": "pameran",
-        "Autoriser interaction": "Izinkan interaksi",
-        "Tester": "Coba"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401 - Akses tidak sah",
-        "Gestion": "pengelolaan",
-        "Ajouter": "menambahkan",
-        "Mes IFTTT": "IFTTT saya",
-        "Rechercher": "Mencari",
+        "Gestion": "Manajemen",
+        "Ajouter": "Tambahan",
+        "Mes IFTTT": "",
+        "Rechercher": "Pencarian",
         "Configuration avancée": "Konfigurasi lanjutan",
         "Sauvegarder": "Menyimpan",
         "Supprimer": "Menghapus",
-        "Equipement": "peralatan",
-        "Commandes": "perintah",
-        "Nom de l'équipement IFTTT": "Nama peralatan IFTTT",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
         "Activer": "Mengaktifkan",
@@ -28,12 +18,21 @@
         "Catégorie": "Kategori",
         "Clef": "Kunci",
         "Ajouter une commande": "Tambahan pesanan",
-        "#": "#",
         "Nom": "Nama",
         "Sous-type": "Subtipe",
         "Evènement": "Peristiwa",
         "Valeur": "Nilai",
         "Options": "Pilihan",
         "Action": "Tindakan"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Nama",
+        "Evènement": "Peristiwa",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "Memenitikan",
+        "Autoriser interaction": "",
+        "Tester": "Coba"
     }
 }

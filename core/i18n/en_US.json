@@ -1,29 +1,19 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "Name",
-        "Evènement": "Event",
-        "Valeur 1": "Value 1",
-        "Valeur 2": "Value 2",
-        "Valeur 3": "Value 3",
-        "Afficher": "Pin up",
-        "Autoriser interaction": "Allow interaction",
-        "Tester": "Test"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
         "Gestion": "Management",
         "Ajouter": "Add",
-        "Mes IFTTT": "My IFTTT",
+        "Mes IFTTT": "",
         "Rechercher": "Search",
         "Configuration avancée": "Advanced configuration",
         "Sauvegarder": "Save",
         "Supprimer": "Delete",
         "Equipement": "Equipment",
-        "Commandes": "Orders",
-        "Nom de l'équipement IFTTT": "IFTTT device name",
+        "Commandes": "Commands",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "Parent object",
         "Aucun": "None",
-        "Activer": "Enabled",
+        "Activer": "Activate",
         "Visible": "Visible",
         "Catégorie": "Category",
         "Clef": "Key",
@@ -32,7 +22,17 @@
         "Sous-type": "Sub-type",
         "Evènement": "Event",
         "Valeur": "Value",
-        "Options": "options",
+        "Options": "Options",
         "Action": "Action"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Name",
+        "Evènement": "Event",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "Show",
+        "Autoriser interaction": "",
+        "Tester": "Test"
     }
 }

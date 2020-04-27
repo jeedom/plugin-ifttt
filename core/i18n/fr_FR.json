@@ -1,15 +1,5 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "Nom",
-        "Evènement": "Evènement",
-        "Valeur 1": "Valeur 1",
-        "Valeur 2": "Valeur 2",
-        "Valeur 3": "Valeur 3",
-        "Afficher": "Afficher",
-        "Autoriser interaction": "Autoriser interaction",
-        "Tester": "Tester"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Gestion": "Gestion",
         "Ajouter": "Ajouter",
@@ -34,5 +24,15 @@
         "Valeur": "Valeur",
         "Options": "Options",
         "Action": "Action"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Nom",
+        "Evènement": "Evènement",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
+        "Tester": "Tester"
     }
 }

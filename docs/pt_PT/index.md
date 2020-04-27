@@ -1,6 +1,6 @@
 
 
-Configuración del plugin 
+Configuração do plugin 
 =======================
 
 
@@ -8,39 +8,39 @@ Configuración del plugin
 
 ![ifttt7](../images/ifttt7.PNG)
 
-Configuración del equipo 
+ 
 =============================
 
 
-plugins :
+ :
 
 ![ifttt8](../images/ifttt8.PNG)
 
 
-equipos) :
+ :
 
 ![ifttt9](../images/ifttt9.PNG)
 
-Una vez que haces clic en uno de ellos, obtienes :
+ :
 
 ![ifttt10](../images/ifttt10.PNG)
 
-Aquí encontrarás toda la configuración de tu equipo :
+ :
 
--   **Nombrebre del equipo** : 
+-   **Nomee de equipamentos** : 
 
--   **Activar** : activa su equipo
+-   **Ativar** : 
 
--   **Visible** : lo hace visible en el tablero
+-   **Visivél** : 
 
--   **Clave** : 
+-   **Chave** : 
     
 
  :
 
--   **Nombre** : Nombrebre de la orden
+-   **Nome** : 
 
--   **Sub-tipo** : 
+-   **Subtipo** : 
 
 -   **Evento** : 
 
@@ -48,13 +48,13 @@ Aquí encontrarás toda la configuración de tu equipo :
      : #,
     #
 
--   configuración avanzada (ruedas con muescas pequeñas) : Muestra
-    La configuración avanzada del comando (método
-    historia, widget ...)
+-    : 
+    
+    
 
--   Probar : Se usa para probar el comando
+-   Teste : 
 
--   eliminar (firmar -) : permite eliminar el comando
+-    : 
 
  
 ==========================
@@ -65,7 +65,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 ![ifttt1](../images/ifttt1.png)
 
 
-Crear :
+ :
 
 ![ifttt2](../images/ifttt2.PNG)
 
@@ -87,7 +87,7 @@ Crear :
 ![ifttt6](../images/ifttt6.png)
 
 
-Jeedom
+
 
 ![ifttt11](../images/ifttt11.PNG)
 
@@ -174,13 +174,13 @@ Jeedom
 
 
 
-> **Punta**
+> ****
 >
 > 
 > 
 > ". 
 > . #,
-> \ #Slider \#
+> #
 
  
 ========================================
@@ -263,11 +263,11 @@ Jeedom
 
 .
 
-> **Importante**
+> ****
 >
 > 
 > 
 
-> **Nota**
+> ****
 >
 > :.

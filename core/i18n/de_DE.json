@@ -1,39 +1,38 @@
 {
-    "desktop\/js\/ifttt.js": {
-        "Nom": "Name",
-        "Evènement": "Ereignis",
-        "Valeur 1": "Wert 1",
-        "Valeur 2": "Wert 2",
-        "Valeur 3": "Wert 3",
-        "Afficher": "Anzeige",
-        "Autoriser interaction": "Interaktion zulassen",
-        "Tester": "Test"
-    },
-    "desktop\/php\/ifttt.php": {
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Gestion": "Management",
-        "Ajouter": "hinzufügen",
-        "Mes IFTTT": "Mein IFTTT",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
+        "Mes IFTTT": "",
         "Rechercher": "Suchen nach",
         "Configuration avancée": "Erweiterte Konfiguration",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
-        "Equipement": "Ausrüstung",
+        "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Nom de l'équipement IFTTT": "IFTTT Gerätename",
-        "Objet parent": "Eltern-Objekt",
+        "Nom de l'équipement IFTTT": "",
+        "Objet parent": "Übergeordnetes Objekt",
         "Aucun": "Ohne",
-        "Activer": "aktivieren",
+        "Activer": "Aktivieren",
         "Visible": "Sichtbar",
         "Catégorie": "Kategorie",
-        "Clef": "Schlüssel ",
+        "Clef": "Schlüssel",
         "Ajouter une commande": "Kommando hinzufügen",
-        "#": "#",
         "Nom": "Name",
         "Sous-type": "Untertyp",
         "Evènement": "Ereignis",
         "Valeur": "Wert",
         "Options": "Optionen",
         "Action": "Aktion"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Name",
+        "Evènement": "Ereignis",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "Anzeige",
+        "Autoriser interaction": "",
+        "Tester": "Test"
     }
 }
