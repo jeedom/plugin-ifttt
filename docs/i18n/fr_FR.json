@@ -51,6 +51,7 @@
         "permet de supprimer la commande": "permet de supprimer la commande",
         "Création d'un compte IFTTT": "Création d'un compte IFTTT",
         "Créez un compte sur IFTTT si ce n'est pas déjà fait, en allant sur": "Créez un compte sur IFTTT si ce n'est pas déjà fait, en allant sur",
+        "IFTTT": "IFTTT",
         "Renseignez votre adresse mail puis votre nom d'utilisateur et faites": "Renseignez votre adresse mail puis votre nom d'utilisateur et faites",
         "créer": "créer",
         "Un petit guide va vous expliquer les possibilités, une fois celui-ci": "Un petit guide va vous expliquer les possibilités, une fois celui-ci",
@@ -152,8 +153,8 @@
         "Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne": "Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne",
         "sera pas prévenu lors de votre sortie de la zone": "sera pas prévenu lors de votre sortie de la zone",
         "NOTE": "NOTE",
-        "Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https": "Pour recuperer l'url du webhook sur ifttt il faut aller la [ici](https",
-        "\/\/ifttt": "\/\/ifttt",
-        "com\/maker_webhooks) puis cliquer sur documentation": "com\/maker_webhooks) puis cliquer sur documentation"
+        "ici": "ici",
+        "Pour recuperer l'url du webhook sur ifttt il faut aller la": "Pour recuperer l'url du webhook sur ifttt il faut aller la",
+        "puis cliquer sur documentation": "puis cliquer sur documentation"
     }
 }
