@@ -45,7 +45,7 @@ Nachfolgend finden Sie die Konfiguration der Befehle :
 -   **Ereignis** : Ereignisname in IFTTT konfiguriert
 
 -   **Valeur** : Wert, der an IFTTT gesendet werden soll, 3 mögliche Unterscheidungen, in
-    Je nach Subtyp können Sie Tags verwenden : \#Farbe \#,
+    Je nach Subtyp können Sie Tags verwenden : \#color\#,
     \#slider \#, \#message \# und \#title \#
 
 -   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
@@ -180,7 +180,7 @@ Wetterbedingungen im Inhaltsstoffwert1
 > Nachricht zum Beispiel, setzen Sie das Tag \#message \# in eines oder mehrere
 > "Wert" -Felder". In Ihrem Szenario lautet der Nachrichtenwert also
 > Tranmis bei IFTTT. Das gleiche ist mit \#title \#, \#color \ möglich#,
-> \#Slider \#
+> \#slider\#
 
 Senden von Informationen von IFTTT an Jeedom 
 ========================================
@@ -245,12 +245,12 @@ URL für externen Zugriff :
 
 Denken Sie daran, zu ersetzen :
 
--   \#APIKEY \# : durch Ihren API-JEEDOM-Schlüssel (im Allgemeinen
+-   \#APIKEY\# : durch Ihren API-JEEDOM-Schlüssel (im Allgemeinen
     → Administration → Konfiguration)
 
--   \#IDCMD \# : anhand der ID Ihrer zuvor erstellten Bestellung
+-   \#IDCMD\# : anhand der ID Ihrer zuvor erstellten Bestellung
 
--   \#WERT \# : durch den Wert, den Sie Ihrer Bestellung geben möchten.
+-   \#VALEUR\# : durch den Wert, den Sie Ihrer Bestellung geben möchten.
     Achtung hier müssen die Leerzeichen durch% 20 ersetzt werden (und es
     besser, um Sonderzeichen zu vermeiden), z : Ohne% 20zone
 

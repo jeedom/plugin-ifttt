@@ -38,14 +38,14 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 A continuación encontrará la configuración de los comandos. :
 
--   **Nom** : Nombrebre de la orden
+-   **Nom** : Nombre de la orden
 
 -   **Sous-type** : subtipo de equipo
 
 -   **Evento** : nombre del evento configurado en IFTTT
 
 -   **Valeur** : valor para enviar a IFTTT, 3 distinciones posibles, en
-    dependiendo del subtipo puedes usar etiquetas : \#color \#,
+    dependiendo del subtipo puedes usar etiquetas : \#color\#,
     \#slider \#, \#message \# y \#title \#
 
 -   configuración avanzada (ruedas con muescas pequeñas) : Muestra
@@ -180,7 +180,7 @@ condiciones climáticas en el valor del ingrediente1
 > mensaje, por ejemplo, coloque la etiqueta \#message \# en uno o más
 > Campos de "valor"". Entonces, en su escenario, el valor del mensaje será
 > tranmis en IFTTT. Lo mismo es posible con \#title \#, \#color \#,
-> \#Slider \#
+> \#slider\#
 
 Envío de información de IFTTT a Jeedom 
 ========================================
@@ -245,12 +245,12 @@ URL de acceso externo :
 
 Recuerde reemplazar :
 
--   \#APIKEY \# : por su clave API JEEDOM (está en General
+-   \#APIKEY\# : por su clave API JEEDOM (está en General
     → Administración → Configuración)
 
--   \#IDCMD \# : por la identificación de su pedido previamente creado
+-   \#IDCMD\# : por la identificación de su pedido previamente creado
 
--   \#VALOR \# : por el valor que desea dar a su pedido.
+-   \#VALEUR\# : por el valor que desea dar a su pedido.
     Atención aquí los espacios deben ser reemplazados por% 20 (y
     mejor para evitar caracteres especiales), ex : Excluyendo% 20zone
 

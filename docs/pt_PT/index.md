@@ -45,7 +45,7 @@ Abaixo você encontrará a configuração dos comandos :
 -   **Evento** : nome do evento configurado no IFTTT
 
 -   **Valeur** : valor a enviar ao IFTTT, 3 possíveis distinções, em
-    dependendo do subtipo, você pode usar tags : \#color \#,
+    dependendo do subtipo, você pode usar tags : \#color\#,
     \#slider \#, \#message \# e \#title \#
 
 -   configuração avançada (pequenas rodas dentadas) : permite exibir
@@ -180,7 +180,7 @@ condições meteorológicas no ingrediente value1
 > Por exemplo, coloque a tag \#message \# em um ou mais
 > Campos "Valor"". Portanto, no seu cenário, o valor da mensagem será
 > tranmis na IFTTT. O mesmo é possível com \#title \#, \#color \#,
-> \#slider \#
+> \#slider\#
 
 Enviando informações de IFTTT para Jeedom 
 ========================================
@@ -245,12 +245,12 @@ URL de acesso externo :
 
 Lembre-se de substituir :
 
--   \#APIKEY \# : pela sua chave API JEEDOM (geralmente é
+-   \#APIKEY\# : pela sua chave API JEEDOM (geralmente é
     → Administração → Configuração)
 
--   \#IDCMD \# : pelo ID do seu pedido criado anteriormente
+-   \#IDCMD\# : pelo ID do seu pedido criado anteriormente
 
--   \#VALUE \# : pelo valor que você deseja atribuir ao seu pedido.
+-   \#VALEUR\# : pelo valor que você deseja atribuir ao seu pedido.
     Atenção aqui os espaços devem ser substituídos por% 20 (e
     melhor evitar caracteres especiais), ex : Excluindo% 20zona
 
