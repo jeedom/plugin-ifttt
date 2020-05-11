@@ -1,23 +1,20 @@
+# IFTTT plugin
+
 This plugin allows to send an event to IFTTT
 
-Plugin configuration 
-=======================
+# Plugin configuration 
 
-After downloading the plugin you need to activate it, it will not
-no other configuration required.
+After downloading the plugin you must activate it, it does not require any other configuration.
 
 ![ifttt7](../images/ifttt7.PNG)
 
-Equipment configuration 
-=============================
+# Equipment configuration 
 
-The configuration of IFTTT equipment is accessible from the menu
-Plugins :
+The configuration of IFTTT equipment is accessible from the plugins menu :
 
 ![ifttt8](../images/ifttt8.PNG)
 
-This is what the IFTTT plugin page looks like (here with already 1
-equipment) :
+This is what the IFTTT plugin page looks like (here with 1 device already) :
 
 ![ifttt9](../images/ifttt9.PNG)
 
@@ -28,49 +25,31 @@ Once you click on one of them, you get :
 Here you find all the configuration of your equipment :
 
 -   **Name de l'équipement** : name of your IFTTT equipment
-
 -   **Activate** : makes your equipment active
-
 -   **Visible** : makes it visible on the dashboard
-
--   **Key** : IFTTT key that you will find in the configuration of the
-    Webhooks service (replacing channel maker)
+-   **Key** : IFTTT key that you will find in the configuration of the Webhooks service (which replaces channel maker)
 
 Below you will find the configuration of the commands :
 
 -   **Name** : Name of the order
-
 -   **Sub-type** : equipment subtype
-
 -   **Event** : event name configured in IFTTT
-
--   **Value** : value to send to IFTTT, 3 possible distinctions, in
-    depending on the subtype you can use tags : \#color\#,
-    \#slider\#, \#message\# and \#title\#
-
--   advanced configuration (small notched wheels) : Displays
-    the advanced configuration of the command (method
-    history, widget…)
-
+-   **Value** : value to send to IFTTT, 3 possible distinctions, depending on the subtype you can use the tags : \#color\#, \#slider\#, \#message\# and \#title\#
+-   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
 -   Test : Used to test the command
-
 -   delete (sign -) : allows to delete the command
 
-Creation of an IFTTT account 
-==========================
+# Creation of an IFTTT account 
 
-Create an IFTTT account if you have not already done so, by going to
-[IFTTT](:https://ifttt.com) :
+Create an IFTTT account if you have not already done so, by going to [IFTTT](:https://ifttt.com) :
 
 ![ifttt1](../images/ifttt1.png)
 
-Enter your email address then your username and do
-Create :
+Enter your email address then your username and have it created :
 
 ![ifttt2](../images/ifttt2.PNG)
 
-A short guide will explain the possibilities to you, once this one
-finished, click on the top right on search :
+A small guide will explain the possibilities to you, once it is finished, click on the top right on search :
 
 ![ifttt3](../images/ifttt3.PNG)
 
@@ -86,16 +65,13 @@ And there you have to collect your key :
 
 ![ifttt6](../images/ifttt6.png)
 
-This key is to be copied in the "Key" field of your equipment under
-Jeedom
+This key is to be copied in the "Key" field of your equipment under Jeedom
 
 ![ifttt11](../images/ifttt11.PNG)
 
-Creation of your first "Applet" 
-==================================
+# Creation of your first "Applet"
 
-For that nothing could be simpler, in IFTTT click on "My applets" then
-on "New applet"
+Nothing could be simpler, in IFTTT click on "My applets" then on "New applet"
 
 ![ifttt12](../images/ifttt12.png)
 
@@ -115,9 +91,7 @@ Click on "Receive a web request"
 
 ![ifttt16](../images/ifttt16.png)
 
-Give a name to your "event", attention it must correspond to
-name of the event in the Jeedom command, so the
-memorize, then validate :
+Give a name to your "event", attention it must correspond to the name of the event in the Jeedom command, it must therefore be memorized, then validate :
 
 ![ifttt17](../images/ifttt17.png)
 
@@ -125,40 +99,27 @@ Then click on that :
 
 ![ifttt18](../images/ifttt18.png)
 
-Then you see, for the example I will send a
-notification on my phone (you must first have installed
-the IFTTT application above), so I click on Notifications :
+Then you see, for the example I will send a notification on my phone (you must first install the IFTTT application on it), so I click on Notifications :
 
 ![ifttt19](../images/ifttt19.png)
 
-Confirm by clicking on "Send a notification" (may change depending
-channels) :
+Validate by clicking on "Send a notification" (may change depending on the channels) :
 
 ![ifttt20](../images/ifttt20.png)
 
-Then you have to write the message of the notification, there are
-tags (ingredient) possible :
+Then you have to write the message of the notification, there are tags (ingredient) possible here :
 
 -   **{{EventName}}** : name of the event, here weather
-
--   **{{Value1}}** : value 1 sent in the channel, this is configured
-    on order in Jeedom
-
--   **{{Value2}}** : value 2 sent in the channel, this is configured
-    on order in Jeedom
-
--   **{{Value3}}** : value 3 sent in the channel, this is configured
-    on order in Jeedom
-
+-   **{{Value1}}** : value 1 sent in the channel, this is configured on the command in Jeedom
+-   **{{Value2}}** : value 2 sent in the channel, this is configured on the command in Jeedom
+-   **{{Value3}}** : value 3 sent in the channel, this is configured on the command in Jeedom
 -   **{{OccurredAt}}** : date of occurrence
 
-This is what it gives here (I want to receive the notification from the
-weather in my house), validate by clicking on "Create Action" :
+This is what it gives here (I want to receive the notification of the weather in my house), validate by clicking on "Create Action" :
 
 ![ifttt21](../images/ifttt21.PNG)
 
-Give a name to your applet (recipe) and validate by clicking on
-"Create action" :
+Give a name to your applet (recipe) and validate by clicking on "Create action" :
 
 ![ifttt22](../images/ifttt22.PNG)
 
@@ -170,25 +131,15 @@ It remains more than to create the order on the Jeedom side, it's quite simple :
 
 ![ifttt24](../images/ifttt24.PNG)
 
-Nothing special here, you have to give the name of the event
-IFTTT in Jeedom and then put the values to pass to IFTTT, here
-weather conditions in the ingredient value1
+Nothing special here, you must put the name of the event IFTTT in Jeedom and then put the values to pass to IFTTT, here the weather conditions in the ingredient value1
 
 > **Tip**
 >
-> Jeedom side you can, if you order a subtype
-> message for example, put the tag \#message\# in one or more
-> "Value" fields". So in your scenario the message value will be
-> tranmis at IFTTT. The same is possible with \#title\#, \#color\#,
-> \#slider\#
+> On the Jeedom side you can, if you order a message subtype for example, put the tag \#message\# in one or more "Value" fields". So, in your scenario the value of the message will be passed to IFTTT. The same is possible with \#title\#, \#color\#, \#slider\#
 
-Sending information from IFTTT to Jeedom 
-========================================
+# Sending information from IFTTT to Jeedom 
 
-It is also possible to do the other way, sending information from
-IFTTT to Jeedom. Here's how to send a message
-information when the phone enters a given area. First
-thing to do, create a new applet :
+It is also possible to do the other way, sending information from IFTTT to Jeedom. This is how to for example send information when the phone enters a given area. First thing to do, create a new applet :
 
 ![ifttt25](../images/ifttt25.png)
 
@@ -200,8 +151,7 @@ Select "Location" :
 
 ![ifttt27](../images/ifttt27.png)
 
-Choose your trigger (here I will take when we enter
-a zone) :
+Choose your trigger (here I will take when we enter an area) :
 
 ![ifttt28](../images/ifttt28.png)
 
@@ -221,38 +171,22 @@ Click on "Make a web request" :
 
 ![ifttt32](../images/ifttt32.png)
 
-Jeedom side, on your IFTTT equipment, create a type order
-info / other (or binary if you just want to know if you are in the
-area), like this :
+Jeedom side, on your IFTTT equipment, create an info / other type command (or binary if you just want to know if you are in the area), like this :
 
 ![ifttt33](../images/ifttt33.PNG)
 
--   Very important here : retrieve the order id (here 5369).
+Very important here : retrieve the order id (here 5369).
 
-We then return to IFTTT and in our webhooks we will give it
-the url to call. This is the most complicated step, find your
-external access url :
+We then return to IFTTT and in our webhooks we will give it the url to call. This is the most complicated step, find your external access url :
 
--   You are using jeedom DNS so this is :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
-    Attention if you have an address in / jeedom you must think about
-    add it before the / core
-
--   You have your own DNS then the url is of the form
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
-    Attention if you have an address in / jeedom you must think about
-    add it before the / core
+-   You are using jeedom DNS so this is : ``https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#``. Attention if you have an address in / jeedom you must remember to add it before the / core
+-   You have your own DNS then the url is of the form ``http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#``. Attention if you have an address in / jeedom you must remember to add it before the / core
 
 Remember to replace :
 
--   \#APIKEY\# : by your API JEEDOM key (it is in General
-    → Administration → Configuration)
-
+-   \#APIKEY\# : by your JEEDOM API key (it is in General → Administration → Configuration)
 -   \#IDCMD\# : by the id of your previously created order
-
--   \#VALEUR\# : by the value you want to give to your order.
-    Attention here the spaces must be replaced by% 20 (and it
-    better to avoid special characters), ex : Excluding% 20zone
+-   \#VALEUR\# : by the value you want to give to your order. Attention here the spaces must be replaced by% 20 (and it is better to avoid special characters), ex : Excluding% 20zone
 
 This is what it gives :
 
@@ -260,8 +194,7 @@ This is what it gives :
 
 Remember to put method on Get, then click on "Create Action".
 
-Give a title to your applets then click on "Create action". And
-here, as soon as you enter the Jeedom area will be notified.
+Give a title to your applets then click on "Create action". And voila, as soon as you enter the Jeedom area will be notified.
 
 > **Important**
 >
