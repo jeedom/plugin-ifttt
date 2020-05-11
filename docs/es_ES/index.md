@@ -27,26 +27,26 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre del equipo** : nombre de su equipo IFTTT
+-   **Nombre de l'équipement** : nombre de su equipo IFTTT
 
--   **Activer** : activa su equipo
+-   **Activar** : activa su equipo
 
 -   **Visible** : lo hace visible en el tablero
 
--   **Clef** : Clave IFTTT que encontrará en la configuración de
+-   **Clave** : Clave IFTTT que encontrará en la configuración de
     Servicio de webhooks (reemplazando al creador de canales)
 
-A continuación encontrará la configuración de los comandos. :
+A continuación encontrará la configuración de los comandos :
 
--   **Nom** : Nombre de la orden
+-   **Nombre** : Nombre de la orden
 
--   **Sous-type** : subtipo de equipo
+-   **Sub-tipo** : subtipo de equipo
 
 -   **Evento** : nombre del evento configurado en IFTTT
 
--   **Valeur** : valor para enviar a IFTTT, 3 distinciones posibles, en
+-   **Valor** : valor para enviar a IFTTT, 3 distinciones posibles, en
     dependiendo del subtipo puedes usar etiquetas : \#color\#,
-    \#slider \#, \#message \# y \#title \#
+    \#slider\#, \#message\# y \#title\#
 
 -   configuración avanzada (ruedas con muescas pequeñas) : Muestra
     La configuración avanzada del comando (método
@@ -170,23 +170,23 @@ Sigue siendo más que crear el pedido en el lado de Jeedom, es bastante simple :
 
 ![ifttt24](../images/ifttt24.PNG)
 
-Nada especial aquí, tienes que dar el nombre del evento.
+Nada especial aquí, tienes que dar el nombre del evento
 IFTTT en Jeedom y luego ponga los valores para pasar a IFTTT, aquí
 condiciones climáticas en el valor del ingrediente1
 
-> **Tip**
+> **Punta**
 >
 > Lado de la libertad puede, si solicita un subtipo
-> mensaje, por ejemplo, coloque la etiqueta \#message \# en uno o más
+> mensaje por ejemplo, ponga la etiqueta \#message\# en uno o más
 > Campos de "valor"". Entonces, en su escenario, el valor del mensaje será
-> tranmis en IFTTT. Lo mismo es posible con \#title \#, \#color \#,
+> tranmis en IFTTT. Lo mismo es posible con \#title\#, \#color\#,
 > \#slider\#
 
 Envío de información de IFTTT a Jeedom 
 ========================================
 
 También es posible hacer lo contrario, enviando información desde
-IFTTT a Jeedom. Aquí se explica cómo enviar un mensaje.
+IFTTT a Jeedom. Aquí se explica cómo enviar un mensaje
 información cuando el teléfono ingresa a un área determinada. Primero
 Que hacer, crear un nuevo applet :
 
@@ -213,7 +213,7 @@ Haga clic en "eso" :
 
 ![ifttt30](../images/ifttt30.png)
 
-Busque "Webhooks" y haga clic en él. :
+Busque "Webhooks" y haga clic en él :
 
 ![ifttt31](../images/ifttt31.png)
 
@@ -234,12 +234,12 @@ la url para llamar. Este es el paso más complicado, encuentra tu
 URL de acceso externo :
 
 -   Está utilizando jeedom DNS, así que esto es :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Atención, si tiene una dirección en / jeedom, debe pensar
     agréguelo antes del / core
 
 -   Tienes tu propio DNS, entonces la url tiene la forma
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Atención, si tiene una dirección en / jeedom, debe pensar
     agréguelo antes del / core
 
@@ -263,11 +263,11 @@ Recuerde poner el método en Get, luego haga clic en "Crear acción".
 Dé un título a sus applets y luego haga clic en "Crear acción". Y
 aquí, tan pronto como ingrese al área de Jeedom será notificado.
 
-> **Important**
+> **Importante**
 >
 > También debe hacer una receta para abandonar el área, de lo contrario, Jeedom no
 > no se le notificará cuando salga del área
 
-> **NOTE**
+> **Nota**
 >
 > Para obtener la URL del webhook si tienes que ir a [aquí](https://ifttt.com/maker_webhooks) luego haga clic en la documentación

@@ -27,26 +27,26 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de equipamentos** : nome do seu equipamento IFTTT
+-   **Nome de l'équipement** : nome do seu equipamento IFTTT
 
--   **Activer** : torna seu equipamento ativo
+-   **Ativar** : torna seu equipamento ativo
 
--   **Visible** : torna visível no painel
+-   **Visivél** : torna visível no painel
 
--   **Clef** : Chave IFTTT que você encontrará na configuração do
+-   **Chave** : Chave IFTTT que você encontrará na configuração do
     Serviço Webhooks (substituindo o criador de canais)
 
 Abaixo você encontrará a configuração dos comandos :
 
--   **Nom** : nome do comando
+-   **Nome** : nome do comando
 
--   **Sous-type** : subtipo de equipamento
+-   **Subtipo** : subtipo de equipamento
 
 -   **Evento** : nome do evento configurado no IFTTT
 
--   **Valeur** : valor a enviar ao IFTTT, 3 possíveis distinções, em
+-   **Valor** : valor a enviar ao IFTTT, 3 possíveis distinções, em
     dependendo do subtipo, você pode usar tags : \#color\#,
-    \#slider \#, \#message \# e \#title \#
+    \#slider\#, \#message\# e \#title\#
 
 -   configuração avançada (pequenas rodas dentadas) : permite exibir
     a configuração avançada do comando (método
@@ -174,12 +174,12 @@ Nada de especial aqui, você tem que dar o nome do evento
 IFTTT no Jeedom e, em seguida, coloque os valores para passar para o IFTTT, aqui
 condições meteorológicas no ingrediente value1
 
-> **Tip**
+> **Dica**
 >
 > Lado Jeedom você pode, se você pedir um subtipo
-> Por exemplo, coloque a tag \#message \# em um ou mais
+> mensagem, por exemplo, coloque a tag \#message\# em um ou mais
 > Campos "Valor"". Portanto, no seu cenário, o valor da mensagem será
-> tranmis na IFTTT. O mesmo é possível com \#title \#, \#color \#,
+> tranmis na IFTTT. O mesmo é possível com \#title\#, \#color\#,
 > \#slider\#
 
 Enviando informações de IFTTT para Jeedom 
@@ -234,12 +234,12 @@ o URL para ligar. Este é o passo mais complicado, encontre o seu
 URL de acesso externo :
 
 -   Você está usando o DNS jeedom, então isso é :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Atenção, se você tiver um endereço em / jeedom, deverá pensar em
     adicione-o antes do / core
 
 -   Você tem seu próprio DNS, o URL é da forma
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Atenção, se você tiver um endereço em / jeedom, deverá pensar em
     adicione-o antes do / core
 
@@ -263,11 +263,11 @@ Lembre-se de colocar o método em Get e clique em "Criar Ação".
 Dê um título aos seus applets e clique em "Criar ação". E
 aqui, assim que você entrar na área de Jeedom será notificado.
 
-> **Important**
+> **IMPORTANTE**
 >
 > Você também precisa fazer uma receita para deixar a área, caso contrário, o Jeedom não
 > não será notificado quando você sair da área
 
-> **NOTE**
+> **NOTA**
 >
 > Para obter o URL do webhook em ifttt, você precisa acessar [aqui](https://ifttt.com/maker_webhooks) depois clique na documentação

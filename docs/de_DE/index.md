@@ -27,26 +27,26 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name der Ausrüstung** : Name Ihrer IFTTT-Ausrüstung
+-   **Name de l'équipement** : Name Ihrer IFTTT-Ausrüstung
 
--   **Activer** : macht Ihre Ausrüstung aktiv
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
 
--   **Visible** : macht es auf dem Dashboard sichtbar
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
 
--   **Clef** : IFTTT-Schlüssel, den Sie in der Konfiguration des finden
+-   **Schlüssel** : IFTTT-Schlüssel, den Sie in der Konfiguration des finden
     Webhooks-Dienst (ersetzt Channel Maker)
 
 Nachfolgend finden Sie die Konfiguration der Befehle :
 
--   **Nom** : Name der Bestellung
+-   **Name** : Name der Bestellung
 
--   **Sous-type** : Gerätetyp
+-   **Untertyp** : Gerätetyp
 
 -   **Ereignis** : Ereignisname in IFTTT konfiguriert
 
--   **Valeur** : Wert, der an IFTTT gesendet werden soll, 3 mögliche Unterscheidungen, in
-    Je nach Subtyp können Sie Tags verwenden : \#color\#,
-    \#slider \#, \#message \# und \#title \#
+-   **Wert** : Wert, der an IFTTT gesendet werden soll, 3 mögliche Unterscheidungen, in
+    Je nach Subtyp können Sie Tags verwenden : \.#color\.#,
+    \.#slider\.#, \.#message\.# und \#title\.#
 
 -   erweiterte Konfiguration (kleine gekerbte Räder) : Anzeigen
     die erweiterte Konfiguration des Befehls (Methode
@@ -174,13 +174,13 @@ Hier gibt es nichts Besonderes, Sie müssen den Namen der Veranstaltung angeben
 IFTTT in Jeedom und geben Sie dann die Werte an IFTTT hier ein
 Wetterbedingungen im Inhaltsstoffwert1
 
-> **Tip**
+> **Spitze**
 >
 > Jeedom Seite können Sie, wenn Sie einen Untertyp bestellen
-> Nachricht zum Beispiel, setzen Sie das Tag \#message \# in eines oder mehrere
+> Nachricht zum Beispiel, setzen Sie das Tag \#message\.# in einem oder mehreren
 > "Wert" -Felder". In Ihrem Szenario lautet der Nachrichtenwert also
-> Tranmis bei IFTTT. Das gleiche ist mit \#title \#, \#color \ möglich#,
-> \#slider\#
+> Tranmis bei IFTTT. Das gleiche ist mit \ möglich#title\.#, \.#color\.#,
+> \.#slider\.#
 
 Senden von Informationen von IFTTT an Jeedom 
 ========================================
@@ -234,23 +234,23 @@ die URL zum Anrufen. Dies ist der komplizierteste Schritt
 URL für externen Zugriff :
 
 -   Sie verwenden jeedom DNS, also ist dies :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\.#APIKEY\.#& type = ifttt & id = \#IDCMD\.#&value=\.#VALEUR\.#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Achtung, wenn Sie eine Adresse in / jeedom haben, über die Sie nachdenken müssen
     füge es vor dem / core hinzu
 
 -   Sie haben Ihr eigenes DNS, dann hat die URL die Form
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [http://\.#VOTRE\._DNS\.#/core/api/jeeApi.php?apikey=\.#APIKEY\.#& type = ifttt & id = \#IDCMD\.#&value=\.#VALEUR\.#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Achtung, wenn Sie eine Adresse in / jeedom haben, über die Sie nachdenken müssen
     füge es vor dem / core hinzu
 
 Denken Sie daran, zu ersetzen :
 
--   \#APIKEY\# : durch Ihren API-JEEDOM-Schlüssel (im Allgemeinen
+-   \.#APIKEY\.# : durch Ihren API-JEEDOM-Schlüssel (im Allgemeinen
     → Administration → Konfiguration)
 
--   \#IDCMD\# : anhand der ID Ihrer zuvor erstellten Bestellung
+-   \.#IDCMD\.# : anhand der ID Ihrer zuvor erstellten Bestellung
 
--   \#VALEUR\# : durch den Wert, den Sie Ihrer Bestellung geben möchten.
+-   \.#VALEUR\.# : durch den Wert, den Sie Ihrer Bestellung geben möchten.
     Achtung hier müssen die Leerzeichen durch% 20 ersetzt werden (und es
     besser, um Sonderzeichen zu vermeiden), z : Ohne% 20zone
 
@@ -263,11 +263,11 @@ Denken Sie daran, die Methode auf Get zu setzen und dann auf "Aktion erstellen" 
 Geben Sie Ihren Applets einen Titel und klicken Sie auf "Aktion erstellen". Und
 Hier werden Sie benachrichtigt, sobald Sie den Jeedom-Bereich betreten.
 
-> **Important**
+> **Wichtig**
 >
 > Sie müssen auch ein Rezept erstellen, um das Gebiet zu verlassen, sonst tut Jeedom dies nicht
 > wird nicht benachrichtigt, wenn Sie den Bereich verlassen
 
-> **NOTE**
+> **Notiz**
 >
 > Um die Webhook-URL auf ifttt zu erhalten, müssen Sie zu gehen [hier](https://ifttt.com/maker_webhooks) Klicken Sie dann auf Dokumentation

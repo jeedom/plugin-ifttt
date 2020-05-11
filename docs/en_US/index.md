@@ -27,26 +27,26 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name of equipment** : name of your IFTTT equipment
+-   **Name de l'équipement** : name of your IFTTT equipment
 
--   **Activer** : makes your equipment active
+-   **Activate** : makes your equipment active
 
 -   **Visible** : makes it visible on the dashboard
 
--   **Clef** : IFTTT key that you will find in the configuration of the
+-   **Key** : IFTTT key that you will find in the configuration of the
     Webhooks service (replacing channel maker)
 
 Below you will find the configuration of the commands :
 
--   **Nom** : Name of the order
+-   **Name** : Name of the order
 
--   **Sous-type** : equipment subtype
+-   **Sub-type** : equipment subtype
 
 -   **Event** : event name configured in IFTTT
 
--   **Valeur** : value to send to IFTTT, 3 possible distinctions, in
+-   **Value** : value to send to IFTTT, 3 possible distinctions, in
     depending on the subtype you can use tags : \#color\#,
-    \#slider \#, \#message \# and \#title \#
+    \#slider\#, \#message\# and \#title\#
 
 -   advanced configuration (small notched wheels) : Displays
     the advanced configuration of the command (method
@@ -177,9 +177,9 @@ weather conditions in the ingredient value1
 > **Tip**
 >
 > Jeedom side you can, if you order a subtype
-> message for example, put the tag \#message \# in one or more
+> message for example, put the tag \#message\# in one or more
 > "Value" fields". So in your scenario the message value will be
-> tranmis at IFTTT. The same is possible with \#title \#, \#color \#,
+> tranmis at IFTTT. The same is possible with \#title\#, \#color\#,
 > \#slider\#
 
 Sending information from IFTTT to Jeedom 
@@ -234,12 +234,12 @@ the url to call. This is the most complicated step, find your
 external access url :
 
 -   You are using jeedom DNS so this is :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Attention if you have an address in / jeedom you must think about
     add it before the / core
 
 -   You have your own DNS then the url is of the form
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
+    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = ifttt & id = \#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#& type = ifttt & id=#IDCMD#&value=#VALEUR#).
     Attention if you have an address in / jeedom you must think about
     add it before the / core
 
