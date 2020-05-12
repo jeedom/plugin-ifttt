@@ -1,37 +1,38 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "Plugin para o fabricante IFTTT IFTTT",
-        "Aucune": "Nenhum"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "Adicionar IFTTT",
-        "Rechercher": "pesquisa",
-        "Mes IFTTT": "minha IFTTT",
-        "Général": "geral",
-        "Nom de l'équipement IFTTT": "Nome equipamentos IFTTT",
-        "Objet parent": "objeto pai",
-        "Aucun": "não",
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Acesso não autorizado",
+        "Gestion": "Gestão",
+        "Ajouter": "Adicionar",
+        "Mes IFTTT": "My IFTTT",
+        "Rechercher": "Pesquisa",
+        "Configuration avancée": "Configuração avançada",
+        "Sauvegarder": "Salvar",
+        "Supprimer": "Remover",
+        "Equipement": "Equipamento",
+        "Commandes": "Comandos",
+        "Nom de l'équipement IFTTT": "Nome do equipamento IFTTT",
+        "Objet parent": "Objeto pai",
+        "Aucun": "Nemhum",
         "Activer": "Ativar",
         "Visible": "Visivél",
-        "Clef": "chave",
-        "IFTTT": "IFTTT",
+        "Catégorie": "Categoria",
+        "Clef": "Chave",
         "Ajouter une commande": "Adicionar comando",
-        "Nom": "nome",
-        "Sous-type": "subtipo",
-        "Evènement": "evento",
-        "Valeur": "valor",
-        "Action": "ação",
-        "Supprimer": "remover",
-        "Sauvegarder": "salvar",
-        "#": "#",
-        "Catégorie": "categoria"
-    },
-    "plugins/ifttt/desktop/js/ifttt.js": {
         "Nom": "Nome",
-        "Evènement": "evento",
-        "Valeur 1": "valor 1",
-        "Valeur 2": "valor 2",
-        "Valeur 3": "grau 3",
-        "Tester": "teste"
+        "Sous-type": "Subtipo",
+        "Evènement": "Evento",
+        "Valeur": "Valor",
+        "Options": "Opções",
+        "Action": "Ação"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Nome",
+        "Evènement": "Evento",
+        "Valeur 1": "Valor 1",
+        "Valeur 2": "Valor 2",
+        "Valeur 3": "Valor 3",
+        "Afficher": "Display",
+        "Autoriser interaction": "Permitir interação",
+        "Tester": "Teste"
     }
 }

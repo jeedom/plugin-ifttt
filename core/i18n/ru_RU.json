@@ -1,37 +1,38 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "Плагин для IFTTT IFTTT производителя",
-        "Aucune": "Нет"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "Добавить IFTTT",
-        "Rechercher": "Искать",
-        "Mes IFTTT": "мой IFTTT",
-        "Général": "Главная",
-        "Nom de l'équipement IFTTT": "Название IFTTT оборудование",
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Gestion": "Управление",
+        "Ajouter": "Добавить",
+        "Mes IFTTT": "",
+        "Rechercher": "поиск",
+        "Configuration avancée": "Расширенные настройки",
+        "Sauvegarder": "Сохранить",
+        "Supprimer": "удаление",
+        "Equipement": "Оборудование",
+        "Commandes": "Команды",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
-        "Activer": "Активировать",
+        "Activer": "активировать",
         "Visible": "Видимый",
+        "Catégorie": "категория",
         "Clef": "ключ",
-        "IFTTT": "IFTTT",
         "Ajouter une commande": "Добавить команду",
         "Nom": "Имя",
         "Sous-type": "Под-Тип",
-        "Evènement": "Событие",
+        "Evènement": "событие",
         "Valeur": "Значение",
-        "Action": "Действие",
-        "Supprimer": "Удалить",
-        "Sauvegarder": "Сохранить",
-        "#": "#",
-        "Catégorie": "Категория"
+        "Options": "Опции",
+        "Action": "Действие"
     },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "Имя",
-        "Evènement": "Событие",
-        "Valeur 1": "значение 1",
-        "Valeur 2": "значение 2",
-        "Valeur 3": "Оценка 3",
+        "Evènement": "событие",
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "дисплей",
+        "Autoriser interaction": "",
         "Tester": "Тест"
     }
 }

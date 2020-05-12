@@ -1,37 +1,38 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "IFTTT eklenti IFTTT yapıcı için",
-        "Aucune": "Hiçbir"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "IFTTT ekleyin",
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Gestion": "Idare",
+        "Ajouter": "Ekle",
+        "Mes IFTTT": "",
         "Rechercher": "Arayın",
-        "Mes IFTTT": "IFTTT lerim",
-        "Général": "Genel",
-        "Nom de l'équipement IFTTT": "IFTTT cihazın ismi",
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Sauvegarder": "Kaydet",
+        "Supprimer": "Sil",
+        "Equipement": "Cihaz",
+        "Commandes": "Komutalar",
+        "Nom de l'équipement IFTTT": "",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
-        "Activer": "Etkinleştirmek",
+        "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
+        "Catégorie": "Kategori",
         "Clef": "Anahtar",
-        "IFTTT": "IFTTT",
         "Ajouter une commande": "Komuta ekle",
         "Nom": "İsim",
-        "Sous-type": "alt türü(tipi)",
+        "Sous-type": "Alt türü(tipi)",
         "Evènement": "Olay",
         "Valeur": "Değer",
-        "Action": "Etki",
-        "Supprimer": "Sil",
-        "Sauvegarder": "Kaydet",
-        "#": "#",
-        "Catégorie": "Kategori"
+        "Options": "Opsiyonlar",
+        "Action": "Eylem"
     },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "İsim",
         "Evènement": "Olay",
-        "Valeur 1": "Değer 1",
-        "Valeur 2": "Değer 2",
-        "Valeur 3": "Değer 3",
-        "Tester": "Dene"
+        "Valeur 1": "",
+        "Valeur 2": "",
+        "Valeur 3": "",
+        "Afficher": "Göster",
+        "Autoriser interaction": "",
+        "Tester": "Test et"
     }
 }

@@ -1,0 +1,38 @@
+{
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Mes IFTTT": "Mes IFTTT",
+        "Rechercher": "Rechercher",
+        "Configuration avancée": "Configuration avancée",
+        "Sauvegarder": "Sauvegarder",
+        "Supprimer": "Supprimer",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
+        "Objet parent": "Objet parent",
+        "Aucun": "Aucun",
+        "Activer": "Activer",
+        "Visible": "Visible",
+        "Catégorie": "Catégorie",
+        "Clef": "Clef",
+        "Ajouter une commande": "Ajouter une commande",
+        "Nom": "Nom",
+        "Sous-type": "Sous-type",
+        "Evènement": "Evènement",
+        "Valeur": "Valeur",
+        "Options": "Options",
+        "Action": "Action"
+    },
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
+        "Nom": "Nom",
+        "Evènement": "Evènement",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
+        "Afficher": "Afficher",
+        "Autoriser interaction": "Autoriser interaction",
+        "Tester": "Tester"
+    }
+}

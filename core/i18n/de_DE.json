@@ -1,37 +1,38 @@
 {
-    "plugins/ifttt/plugin_info/info.xml": {
-        "Plugin IFTTT pour IFTTT maker": "IFTTT Plugin für IFTTT Maker ",
-        "Aucune": "Ohne"
-    },
-    "plugins/ifttt/desktop/php/ifttt.php": {
-        "Ajouter un IFTTT": "IFTTT hinzufügen",
-        "Rechercher": "Suchen nach",
+    "plugins\/ifttt\/desktop\/php\/ifttt.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
         "Mes IFTTT": "Mein IFTTT",
-        "Général": "Allgemein",
-        "Nom de l'équipement IFTTT": "IFTTT Gerätename",
-        "Objet parent": "Eltern-Objekt",
+        "Rechercher": "Suchen nach",
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Gerät",
+        "Commandes": "Befehle",
+        "Nom de l'équipement IFTTT": "Name der IFTTT-Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
         "Aucun": "Ohne",
-        "Activer": "aktivieren",
+        "Activer": "Aktivieren",
         "Visible": "Sichtbar",
-        "Clef": "Schlüssel ",
-        "IFTTT": "IFTTT",
+        "Catégorie": "Kategorie",
+        "Clef": "Schlüssel",
         "Ajouter une commande": "Kommando hinzufügen",
         "Nom": "Name",
         "Sous-type": "Untertyp",
         "Evènement": "Ereignis",
         "Valeur": "Wert",
-        "Action": "Aktion",
-        "Supprimer": "Löschen",
-        "Sauvegarder": "Speichern",
-        "#": "#",
-        "Catégorie": "Kategorie"
+        "Options": "Optionen",
+        "Action": "Aktion"
     },
-    "plugins/ifttt/desktop/js/ifttt.js": {
+    "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "Name",
         "Evènement": "Ereignis",
         "Valeur 1": "Wert 1",
         "Valeur 2": "Wert 2",
         "Valeur 3": "Wert 3",
+        "Afficher": "Anzeige",
+        "Autoriser interaction": "Interaktion zulassen",
         "Tester": "Test"
     }
 }
