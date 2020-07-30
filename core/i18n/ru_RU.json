@@ -34,5 +34,8 @@
         "Afficher": "дисплей",
         "Autoriser interaction": "",
         "Tester": "Тест"
+    },
+    "info.json": {
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": ""
     }
 }
