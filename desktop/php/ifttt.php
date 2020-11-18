@@ -59,14 +59,16 @@ $eqLogics = eqLogic::byType($plugin->getId());
           <div class="form-group">
             <label class="col-sm-3 control-label" >{{Objet parent}}</label>
             <div class="col-sm-3">
-              <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
-                <option value="">{{Aucun}}</option>
-                <?php
-foreach (jeeObject::all() as $object) {
-	echo '<option value="' . $object->getId() . '">' . $object->getName() . '</option>';
-}
-?>
-             </select>
+							<select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
+								<option value="">{{Aucun}}</option>
+								<?php
+								$options = '';
+								foreach ((jeeObject::buildTree(null, false)) as $object) {
+									$options .= '<option value="' . $object->getId() . '">' . str_repeat('&nbsp;&nbsp;', $object->getConfiguration('parentNumber')) . $object->getName() . '</option>';
+								}
+								echo $options;
+								?>
+							</select>
            </div>
          </div>
          <div class="form-group">
@@ -78,7 +80,7 @@ foreach (jeeObject::all() as $object) {
         </div>
         <div class="form-group">
          <label class="col-sm-3 control-label">{{Catégorie}}</label>
-         <div class="col-sm-8">
+         <div class="col-sm-9">
           <?php
 foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
 	echo '<label class="checkbox-inline">';
@@ -105,7 +107,13 @@ foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
   <table id="table_cmd" class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>{{#}}</th><th>{{Nom}}</th><th>{{Sous-type}}</th><th style="width:200px;">{{Evènement}}</th><th>{{Valeur}}</th><th>{{Options}}</th><th style="width:200px;">{{Action}}</th>
+        <th style="width:50px;">{{Id}}</th>
+        <th>{{Nom}}</th>
+				<th>{{Type}}</th>
+				<th style="width:200px;">{{Evènement}}</th>
+				<th>{{Valeur}}</th>
+				<th>{{Options}}</th>
+				<th>{{Action}}</th>
       </tr>
     </thead>
     <tbody>
