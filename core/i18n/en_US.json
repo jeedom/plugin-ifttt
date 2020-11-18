@@ -34,5 +34,8 @@
         "Afficher": "Show",
         "Autoriser interaction": "Allow interaction",
         "Tester": "Test"
+    },
+    "info.json": {
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": "Thanks to this plugin, you can benefit from the countless recipes available on IFTT. Thus a Jeedom event can become an entry point for an IFTT recipe and trigger an event of all kinds"
     }
 }
