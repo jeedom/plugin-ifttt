@@ -18,8 +18,9 @@
         "Catégorie": "Kategori",
         "Clef": "Anahtar",
         "Ajouter une commande": "Komuta ekle",
+        "Id": "Kimlik",
         "Nom": "İsim",
-        "Sous-type": "Alt türü(tipi)",
+        "Type": "Çeşit",
         "Evènement": "Olay",
         "Valeur": "Değer",
         "Options": "Opsiyonlar",
@@ -33,9 +34,10 @@
         "Valeur 3": "",
         "Afficher": "Göster",
         "Autoriser interaction": "",
+        "Unité": "Ünite",
         "Tester": "Test et"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
     }
 }

@@ -18,8 +18,9 @@
         "Catégorie": "Kategorie",
         "Clef": "Schlüssel",
         "Ajouter une commande": "Kommando hinzufügen",
+        "Id": "Identifikation",
         "Nom": "Name",
-        "Sous-type": "Untertyp",
+        "Type": "Typ",
         "Evènement": "Ereignis",
         "Valeur": "Wert",
         "Options": "Optionen",
@@ -33,9 +34,10 @@
         "Valeur 3": "Wert 3",
         "Afficher": "Anzeige",
         "Autoriser interaction": "Interaktion zulassen",
+        "Unité": "Unit",
         "Tester": "Test"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und ein Ereignis aller Art auslösen"
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und Ereignisse aller Art auslösen"
     }
 }
