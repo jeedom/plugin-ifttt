@@ -18,8 +18,9 @@
         "Catégorie": "カテゴリ",
         "Clef": "キー",
         "Ajouter une commande": "コマンドの追加",
+        "Id": "",
         "Nom": "表題",
-        "Sous-type": "サブタイプ",
+        "Type": "タイプ",
         "Evènement": "イベント",
         "Valeur": "値",
         "Options": "オプション",
@@ -33,9 +34,10 @@
         "Valeur 3": "",
         "Afficher": "ディスプレイ",
         "Autoriser interaction": "",
+        "Unité": "団結",
         "Tester": "テスト"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
     }
 }
