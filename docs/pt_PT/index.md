@@ -71,7 +71,7 @@ Esta chave deve ser copiada para o campo **Chave** de seu equipamento sob Jeedom
 
 # Criação do seu primeiro "Applet""
 
-Nada mais simples, no IFTTT clique em **Meus applets** em seguida **Novo applet** :
+Nada mais simples, no IFTTT clique em **Meus applets** Em seguida **Novo applet** :
 
 ![ifttt12](../images/ifttt12.png)
 
