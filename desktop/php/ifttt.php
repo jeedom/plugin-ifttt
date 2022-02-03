@@ -103,7 +103,7 @@ foreach (jeedom::getConfiguration('eqLogic:category') as $key => $value) {
   <br/>
   <a class="btn btn-success btn-sm cmdAction pull-right" data-action="add"><i class="fas fa-plus-circle"></i> {{Ajouter une commande}}</a>
   <br/><br/>
-  <div class="alert alert-info">Exemple d’URL à appeler : <?php echo network::getNetworkAccess('external') ?>/core/api/jeeApi.php?api=<?php echo jeedom::getApiKey('ifttt'); ?>&type=ifttt&id=#ID_CMD#&value=#VALEUR#</div>
+  <div class="alert alert-info">Exemple d’URL à appeler : <?php echo network::getNetworkAccess('external') ?>/core/api/jeeApi.php?api=<?php echo jeedom::getApiKey('ifttt'); ?>&type=event&plugin=ifttt&id=#ID_CMD#&value=#VALEUR#</div>
   <table id="table_cmd" class="table table-bordered table-condensed">
     <thead>
       <tr>
