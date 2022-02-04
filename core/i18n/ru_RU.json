@@ -3,14 +3,14 @@
         "401 - Accès non autorisé": "401 - Несанкционированный доступ",
         "Gestion": "Управление",
         "Ajouter": "Добавить",
-        "Mes IFTTT": "",
+        "Mes IFTTT": "Mes IFTTT",
         "Rechercher": "поиск",
         "Configuration avancée": "Расширенные настройки",
         "Sauvegarder": "Сохранить",
         "Supprimer": "удаление",
         "Equipement": "Оборудование",
         "Commandes": "Команды",
-        "Nom de l'équipement IFTTT": "",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
         "Activer": "активировать",
@@ -29,15 +29,15 @@
     "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "Имя",
         "Evènement": "событие",
-        "Valeur 1": "",
-        "Valeur 2": "",
-        "Valeur 3": "",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
         "Afficher": "дисплей",
-        "Autoriser interaction": "",
+        "Autoriser interaction": "Autoriser interaction",
         "Unité": "Устройство",
         "Tester": "Тест"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes"
     }
 }

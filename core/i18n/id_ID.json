@@ -3,14 +3,14 @@
         "401 - Accès non autorisé": "401 - Akses tidak sah",
         "Gestion": "Manajemen",
         "Ajouter": "Tambahan",
-        "Mes IFTTT": "",
+        "Mes IFTTT": "Mes IFTTT",
         "Rechercher": "Pencarian",
         "Configuration avancée": "Konfigurasi lanjutan",
         "Sauvegarder": "Menyimpan",
         "Supprimer": "Menghapus",
         "Equipement": "Peralatan",
         "Commandes": "Perintah",
-        "Nom de l'équipement IFTTT": "",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
         "Activer": "Mengaktifkan",
@@ -18,7 +18,7 @@
         "Catégorie": "Kategori",
         "Clef": "Kunci",
         "Ajouter une commande": "Tambahan pesanan",
-        "Id": "",
+        "Id": "Id",
         "Nom": "Nama",
         "Type": "Jenis",
         "Evènement": "Peristiwa",
@@ -29,15 +29,15 @@
     "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "Nama",
         "Evènement": "Peristiwa",
-        "Valeur 1": "",
-        "Valeur 2": "",
-        "Valeur 3": "",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
         "Afficher": "Memenitikan",
-        "Autoriser interaction": "",
+        "Autoriser interaction": "Autoriser interaction",
         "Unité": "Satuan",
         "Tester": "Coba"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes"
     }
 }

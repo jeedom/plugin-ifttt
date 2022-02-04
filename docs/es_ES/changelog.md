@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 02/03/2022
+
+- Arreglo para Jeedom 4.2
+
 # 18/11/2020
 
 - Nueva presentación de la lista de objetos

@@ -3,14 +3,14 @@
         "401 - Accès non autorisé": "401-不正アクセス",
         "Gestion": "管理",
         "Ajouter": "加えます",
-        "Mes IFTTT": "",
+        "Mes IFTTT": "Mes IFTTT",
         "Rechercher": "検索",
         "Configuration avancée": "高度な構成",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
         "Equipement": "設備",
         "Commandes": "コマンド",
-        "Nom de l'équipement IFTTT": "",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
         "Objet parent": "親オブジェクト",
         "Aucun": "何でもありません",
         "Activer": "アクティブ",
@@ -18,7 +18,7 @@
         "Catégorie": "カテゴリ",
         "Clef": "キー",
         "Ajouter une commande": "コマンドの追加",
-        "Id": "",
+        "Id": "Id",
         "Nom": "表題",
         "Type": "タイプ",
         "Evènement": "イベント",
@@ -29,15 +29,15 @@
     "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "表題",
         "Evènement": "イベント",
-        "Valeur 1": "",
-        "Valeur 2": "",
-        "Valeur 3": "",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
         "Afficher": "ディスプレイ",
-        "Autoriser interaction": "",
+        "Autoriser interaction": "Autoriser interaction",
         "Unité": "団結",
         "Tester": "テスト"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes"
     }
 }

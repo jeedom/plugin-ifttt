@@ -2,6 +2,8 @@
     "changelog.md": {
         "Changelog IFTTT": "Registro de cambios IFTTT",
         "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto",
+        "03\/02\/2022": "02\/03\/2022",
+        "Correction pour Jeedom 4.2": "Arreglo para Jeedom 4.2",
         "18\/11\/2020": "18\/11\/2020",
         "Nouvelle présentation de la liste des objets": "Nueva presentación de la lista de objetos",
         "Ajout du tag \"Compatibilité V4": "Adición de la etiqueta \"compatibilidad V4",

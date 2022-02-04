@@ -3,14 +3,14 @@
         "401 - Accès non autorisé": "401 - Yetkisiz erişim",
         "Gestion": "Idare",
         "Ajouter": "Ekle",
-        "Mes IFTTT": "",
+        "Mes IFTTT": "Mes IFTTT",
         "Rechercher": "Arayın",
         "Configuration avancée": "Gelişmiş ayarlar",
         "Sauvegarder": "Kaydet",
         "Supprimer": "Sil",
         "Equipement": "Cihaz",
         "Commandes": "Komutalar",
-        "Nom de l'équipement IFTTT": "",
+        "Nom de l'équipement IFTTT": "Nom de l'équipement IFTTT",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
         "Activer": "Etkinleştir",
@@ -29,15 +29,15 @@
     "plugins\/ifttt\/desktop\/js\/ifttt.js": {
         "Nom": "İsim",
         "Evènement": "Olay",
-        "Valeur 1": "",
-        "Valeur 2": "",
-        "Valeur 3": "",
+        "Valeur 1": "Valeur 1",
+        "Valeur 2": "Valeur 2",
+        "Valeur 3": "Valeur 3",
         "Afficher": "Göster",
-        "Autoriser interaction": "",
+        "Autoriser interaction": "Autoriser interaction",
         "Unité": "Ünite",
         "Tester": "Test et"
     },
     "info.json": {
-        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": ""
+        "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes"
     }
 }
