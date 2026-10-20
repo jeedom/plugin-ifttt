@@ -1,0 +1,25 @@
+name: PHP compatibility
+on:
+  push:
+  pull_request:
+    branches: [beta, master]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  interaction:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['7.4', '8.2', '8.4']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+      - name: PHP syntax
+        run: find core desktop plugin_info tests -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: UTF-8 interaction regression
+        run: php tests/interactionTest.php

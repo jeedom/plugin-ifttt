@@ -33,7 +33,8 @@ class ifttt extends eqLogic {
 		if ($cmd->getType() == 'info' && $cmd->getSubType() == 'string' && $cmd->getConfiguration('interact::allow')) {
 			$parameters = array();
 			$parameters['plugin'] = 'ifttt';
-			$reply = interactQuery::tryToReply(trim(utf8_encode(init('value'))), $parameters);
+			// Jeedom receives UTF-8 already; converting from Latin-1 corrupts accents.
+			$reply = interactQuery::tryToReply(trim(init('value')), $parameters);
 		}
 	}
 
